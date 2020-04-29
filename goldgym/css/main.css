@@ -317,12 +317,14 @@ border-radius: 23px 21px 21px 21px;
     font-size: 18px;
 }
 .traniner-box {
-    padding: 10px;
-    transition: 800ms;
+    border-radius: 27px;
+    background: repeating-radial-gradient(black, transparent 100px);
+    padding: 20px;
+    transition:800ms;
 }
 .traniner-box:hover {
     transform: scale(1.1);
-    padding: 10px;
+    padding: 20px;
     box-sizing: border-box;
 }
 
