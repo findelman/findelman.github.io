@@ -205,7 +205,7 @@ h6 {
 
 	display: none ;
 }
-.tab.is-active { display: block; }
+.tab.is-active { display: flex; }
 .trainer {
     background: linear-gradient(235.16deg, #222121 5.74%, #000000 20.32%, #212121 39.15%, #1B1A1A 63.35%), #000000;
     padding-bottom: 55px;}
@@ -221,6 +221,9 @@ h6 {
 .traniner-box p {
     font-size: 20px;
     margin: 20px 0px;
+}
+.traniner-box div:nth-child(1) img {
+    width: 100%;
 }
 .img-soc img {
     transition: 800ms;
@@ -243,12 +246,11 @@ h6 {
    padding-bottom: 49px;
 }
 .contact form {
-
     background: rgba(255, 255, 255, 0.59);
 border-radius: 0px 0px 15px 15px;
 display: flex;
 flex-flow: column;
-width: 34%;
+width: 370px;
 border-radius: 23px 21px 21px 21px;
 }
 .contact h3 {
@@ -316,17 +318,37 @@ border-radius: 23px 21px 21px 21px;
     font-size: 18px;
 }
 .traniner-box {
-    padding: 20px;
+    padding: 10px;
     transition: 800ms;
 }
 .traniner-box:hover {
     transform: scale(1.1);
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
-    box-shadow: 0px -1px 12px 5px grey;
 }
+
 @media screen and (max-width: 1150px) {
     .prog-rcont {
         display: none;
     }
+    .container {
+        padding: 0px 15px;
+    }
+}
+@media screen and (max-width: 755px){
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 48px;
+    }
+    h4 {
+        font-size: 26px;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 736px) {
+    
 }
