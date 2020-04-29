@@ -102,7 +102,7 @@ header {
     opacity: 0;
 }
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 .program {
@@ -117,7 +117,6 @@ header {
 .num {
     position: relative;
     margin-top: 35px;
-    margin-bottom: px;
     display: flex;
     align-items: center;
 }
@@ -168,16 +167,12 @@ h6 {
     margin-top: 40px;
     display: flex;
 }
-.tubs p:nth-child(1){
-
-}
 .jc-sb {
     display: flex ;
     justify-content: space-between;
 }
 .header-title p {
     margin-top: 20px;
-    font-weight: ;
     font-size: 26px;
     color: #D2D2D2;
 }
@@ -215,9 +210,6 @@ h6 {
     background: linear-gradient(235.16deg, #222121 5.74%, #000000 20.32%, #212121 39.15%, #1B1A1A 63.35%), #000000;
     padding-bottom: 55px;}
 
-
-
-}
 
 .prog-title span {
     color: #FF4F4F;
