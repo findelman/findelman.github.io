@@ -122,6 +122,7 @@ header {
 .num:hover h6 {
     color: black;
 }
+
 .num:hover h6:before {
     transform: scale(1);
 }
@@ -328,6 +329,9 @@ border-radius: 23px 21px 21px 21px;
 @media screen and (max-width: 1150px) {
     .prog-rcont {
         display: none;
+    }
+    .prog-lcont {
+        margin: 0 !important;
     }
     .container {
         padding: 0px 15px;
