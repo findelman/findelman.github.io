@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+a {    
+    color:white;
+    font-size: 22px;
+}
+h1 {
+    font-size: 72px;
+}
+h2 {
+    font-size: 54px;
+}
+h3 {
+    font-size: 51px;
+    font-weight: 300;
+}
+p {
+    font-size: 38px;
+}
+ section {
+color:white;
+
+} 
+.container {
+    max-width: 1450px;
+    margin: 0 auto;
+}
+.mouse-parallax {
+    width: 104%;
+    height: 115.6%;
+    background: center / cover no-repeat url(/images/bg.jpg);
+    transition: all 0.1s ease;  
+    position: relative;
+}
+.header {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+.fixed {
+    width: 100%;
+    position: absolute;
+    top: 45px;
+}
+.logo-box {
+    font-family: 'Rationale', sans-serif;
+    font-size: 50px;
+}
+ span {
+    color:#FFA800;
+}
+.jc-sb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.navbar-links svg {
+    position: relative;
+    fill:white;
+    transition: 500ms;
+    /* width: 40px;
+    height: 40px; */
+}
+.navbar-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0px 16px;
+    z-index: 100000000;
+}
+.navbar-links a:before {
+    border-radius: 50%;
+    content:'';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #00A3FF;
+    transition: 500ms;
+}
+.phone {
+    margin-right: 27px;
+}
+.navbar-content {
+    margin-right: 45px;
+}
+.navbar-links a:hover:before {
+transform: scale(0);
+}
+.navbar-links a:hover svg {
+  transform: scale(1.6);
+}
+.hamburger {
+    cursor: pointer;
+    display: flex;
+    top: 55px;
+    right: 25px;
+    z-index: 1;
+    position: fixed;
+    flex-flow: column;
+    align-items: flex-end;
+    }
+.hamburger span {
+    width: 50px;
+    height: 3px;
+    background: white;
+    display: block;
+    margin: 5px 0px;
+}
+.hamburger span:nth-child(2) {
+    width: 40px;
+}
+.hamburger span:nth-child(3) {
+    width: 32px;
+}
+.main-title {
+    margin-top: 190px;
+}
+.main-title h1:nth-child(2) {
+    font-weight: 400;
+}
+.main-title h1:nth-child(2) span {
+    color: #00A3FF;
+}
+.bottom-nav {
+    text-align: center;
+    margin-top: 10%;
+    animation: 3s down infinite ;
+}
+@keyframes down {
+    40% {
+        transform: translateY(20px);
+        opacity: 0.5;
+    }    
+}
