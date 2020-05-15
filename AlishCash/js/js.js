@@ -4,6 +4,9 @@ new fullpage('#fullpage', {
 	  navigationTooltips: ['Главная', 'SKILLS', 'PORTFOLIO', ],
 	  slidesNavigation: true,
 	navigation: true,
+	scrollOverflowReset: true,
+	// responsiveHeight: 500,
+	parallax: true,
   });
 
 //parallax 
