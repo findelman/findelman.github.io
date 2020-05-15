@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 a {    
     color:white;
@@ -16,9 +17,14 @@ h2 {
     font-size: 54px;
 }
 h3 {
-    font-size: 51px;
+    font-size: 45px;
     font-weight: 300;
 }
+h4 {
+    font-size: 39px;
+    font-weight: 300;
+}
+
 p {
     font-size: 38px;
 }
@@ -39,7 +45,6 @@ color:white;
     position: relative;
 }
 .header {
-    font-family: 'Roboto', sans-serif;
     position: relative;
 }
 .fixed {
@@ -50,6 +55,9 @@ color:white;
 .logo-box {
     font-family: 'Rationale', sans-serif;
     font-size: 50px;
+}
+.logo-box span {
+    font-family: 'Rationale', sans-serif;
 }
  span {
     color:#FFA800;
@@ -140,8 +148,55 @@ transform: scale(0);
     }    
 }
 .skills {
-    background: url(..//images/bg2.jpg);
+    background: center / cover no-repeat url(..//images/bg2.jpg);
 }
 .skills h1 {
     color: #8F00FF;
+    margin-bottom: 21px;
 }
+.sk-left-box  h3{
+font-weight: bold;
+}
+.p-left {
+    margin-top: 20px;
+    text-align: left;
+}
+.sk-left-box h4 {
+    margin-top: 15px;
+}
+.sk-left-box {
+    width: 441px;
+    background: linear-gradient(286.22deg, #737693 -7.23%, rgba(65, 69, 105, 0.526042) 51.72%, rgba(255, 255, 255, 0) 92.34%), #422CCB;
+    box-shadow: 0px 4px 100px #422CCB;
+    border-radius: 26px;
+    text-align: center;
+    padding: 16px 44px 33px;
+}
+.progress-bar {
+    margin-top: 13px;
+    width: 100%;
+    height: 18px;
+    background: rgba(216, 211, 211, 0.54);    
+    border-radius: 36px;
+}
+.progress-bar div {
+    background: linear-gradient(271.25deg, #FFFFFF -32.16%, rgba(255, 255, 255, 0) 102.97%), #FFA800;
+border-radius: 36px;
+width: 84%;
+height: 100%;
+}
+.sk-left-box:nth-child(2) {
+    background: linear-gradient(280.04deg, #CDAC38 -7.23%, #F23F3F 92.34%);
+    box-shadow: 0px 4px 100px #AA1035;
+    margin-top: 31px;
+}
+.flex {
+    display: flex;
+}
+.sk-right {
+    margin-left: 60px;
+}
+.hover-card.card-rounded.mouse-out {
+    transform: rotateX(0) rotateY(0) !important;
+    transition: 0.8s ease-out;
+  }
