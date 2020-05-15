@@ -27,13 +27,14 @@ color:white;
 
 } 
 .container {
+    padding: 45px 0px;
     max-width: 1450px;
     margin: 0 auto;
 }
 .mouse-parallax {
     width: 104%;
     height: 115.6%;
-    background: center / cover no-repeat url(/images/bg.jpg);
+    background: center / cover no-repeat url(..//images/bg.jpg);
     transition: all 0.1s ease;  
     position: relative;
 }
@@ -44,7 +45,7 @@ color:white;
 .fixed {
     width: 100%;
     position: absolute;
-    top: 45px;
+    top: 0;
 }
 .logo-box {
     font-family: 'Rationale', sans-serif;
@@ -81,7 +82,7 @@ color:white;
     width: 50px;
     height: 50px;
     background: #00A3FF;
-    transition: 500ms;
+    transition: 600ms;
 }
 .phone {
     margin-right: 27px;
@@ -137,4 +138,10 @@ transform: scale(0);
         transform: translateY(20px);
         opacity: 0.5;
     }    
+}
+.skills {
+    background: url(..//images/bg2.jpg);
+}
+.skills h1 {
+    color: #8F00FF;
 }
