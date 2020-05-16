@@ -1,0 +1,151 @@
+
+@media screen and (max-width:1480px){
+    .mouse-parallax {width: 115%;}
+}
+@media screen and (max-width: 1274px) {
+    .sk-left {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;  
+        margin-bottom: 31px;    
+    }
+    .sk-left-box:nth-child(2) {
+        margin-top: unset;
+        order: -1;
+    }
+    .sk-left-box {
+        width: 44%;
+    }
+    h1 {
+        font-size: 61px;
+    }
+}
+@media screen and (max-width: 999px) {
+    h1 {
+        font-size: 53px;
+    }
+    h3 {
+        font-size: 42px;
+    }
+    p {
+        font-size: 26px;
+    }
+    .bg-frame {
+        width: 65%;
+    }
+    .phone-frame {
+        width: 20%;
+    }
+}
+@media screen and (max-width:854px) {
+    h1 {
+        font-size: 47px;
+    }
+    h2 {
+        font-size: 46px;
+    }
+    .sk-right:after {
+        height: 120px;
+    }
+    .sk-right:before {
+        height: 158px;
+    }
+    .price-box {
+        width: 70%;
+        padding: 23px 59px 23px 44px;
+    }
+    .sk-left  {
+        flex-flow: wrap;
+    }
+    .sk-left-box {
+        width: 74%;
+    }
+    .sk-left-box:nth-child(2) {
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 763px) {
+    .navbar-links {
+        display: none;
+    }
+    .navbar-content {
+        margin-right: 50%;
+        min-width: 214px;
+    }
+    .sk-right:before,
+    .sk-right:after {
+        display: none;
+    }
+    .sk-right .sk-right-box:nth-child(4),
+    .sk-right .sk-right-box:nth-child(3),
+    .sk-right-box,
+    .sk-right {
+        margin-left: unset;
+    }
+    .phone-frame {
+        display: none;
+    }
+    .bg-frame {
+        width: 96%;
+    }
+    .btn {
+        margin-top: 33px;
+    }
+    h1 {
+        font-size: 38px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+  }
+@media screen and (max-width:626px) {
+    .price-box  {
+        width: 94%;
+    }
+h1 {
+    font-size: 38px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  .sk-left-box {
+    width: 92%;
+  }
+  p {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 39px;
+  }
+  .number {
+    width: 61px;
+    height: 61px;
+  }
+  .portfolio span,
+  .price h1:nth-child(1) {
+    margin-bottom: unset;
+  }
+  .form-title {
+    font-size: 27px;
+  }
+  .container {
+    padding: 30px 0px 18px 6px;
+  }
+  .price-box {
+      padding: 23px 24px 23px 40px;
+  }
+  .price-box svg {
+    width: 29%;
+    top: -28px;
+  }
+  .price-box p {
+      font-size: 28px;
+  }
+  .main-title {
+      margin-top: 120px;
+  }
+  .contact-panel .phone {
+      display: none;
+  }
+}

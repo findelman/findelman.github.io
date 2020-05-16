@@ -7,6 +7,7 @@
     font-family: 'Roboto', sans-serif;
 }
 body,html{
+    cursor: default;
     overflow: hidden !important;
 }
 a {    
@@ -37,7 +38,7 @@ color:white;
 
 } 
 .container {
-    padding: 30px 0px;
+    padding: 30px 35px 0px 10px;
     max-width: 1450px;
     margin: 0 auto;
 }
@@ -197,6 +198,7 @@ height: 100%;
     display: flex;
 }
 .sk-right {
+    width: 100%;
     margin-left: 60px;
     position: relative;
 }
@@ -255,17 +257,21 @@ height: 100%;
     font-weight: 300;
 }
 .bg-frame {
-    background: center / contain no-repeat url(../images/dhouse2.png);
-    width: 700px;
-    height: 500px;
+    width: 50%;
     overflow: hidden;
+}
+.bg-frame img {
+    width: 100%;
 }
 .phone-frame {
     margin-left: 70px;
     margin-top: 15px;
-    height: 500px;
-    width: 229px;
-    background: center / contain no-repeat url(../images/phone-bg2.png);
+
+    width: 16%;
+  
+}
+.phone-frame img {
+    width: 100%;
 }
 .btn {
     margin-top: auto;
@@ -306,8 +312,7 @@ height: 100%;
     margin-bottom: -20px;
 }
 .price-box {
-    width: 585px;
-    max-width: 585px;
+    width: 41%;
     border-radius: 23px;
     background: #6774EA;
     padding: 23px 44px;
@@ -349,6 +354,7 @@ height: 100%;
     margin-bottom: 30px;
 }
 .price-content.jc-sb {
+    align-items: unset;
     justify-content: center;
 }
 .price-box:nth-child(3) {
@@ -406,7 +412,7 @@ height: 100%;
 }
 .main-form textarea {
     margin-top: 35px;
-    max-width: 658px;
+    max-width: 97%;
     resize: none;
     font-size: 30px;
     color: white;

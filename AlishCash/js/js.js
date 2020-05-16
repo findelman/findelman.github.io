@@ -8,9 +8,8 @@ new fullpage('#fullpage', {
   scrollOverflow:true,
   slidesNavigation: false,
   responsiveSlides: true,
-  // new 
   // verticalCentered: false,
-  // autoScrolling: false,
+  // autoScrolling: true, настроить тут
   scrollBar: true,
   });
 
@@ -27,7 +26,7 @@ window.addEventListener('mousemove', function(e) {
 const cards = Array.from(document.querySelectorAll('.hover-card'));
 const props = {
   perspective: '500px',
-  delta: 30, 
+  delta: 55, 
   cardWidth: cards[0].clientWidth,
   cardHeight: cards[0].clientHeight,
 }
