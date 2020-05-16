@@ -9,8 +9,13 @@ new fullpage('#fullpage', {
   slidesNavigation: false,
   responsiveSlides: true,
   // verticalCentered: false,
-  // autoScrolling: true, настроить тут
+  // autoScrolling: false, 
   scrollBar: true,
+  // afterLoad : function ( anchorLink ,  index ) { 
+  //   $ ( '.toanimate' ) . addClass ( 'animated fadeInLeftBig' ) ; 
+  //   } ,
+  responsiveWidth: 400,  
+  
   });
 
 //parallax 

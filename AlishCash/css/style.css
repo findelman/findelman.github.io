@@ -6,10 +6,10 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-body,html{
+/* body,html{
     cursor: default;
     overflow: hidden !important;
-}
+} */
 a {    
     color:white;
     font-size: 22px;

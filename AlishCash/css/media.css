@@ -148,4 +148,7 @@ h1 {
   .contact-panel .phone {
       display: none;
   }
+  .fp-tableCell {
+      height: 100% !important;
+  }
 }
