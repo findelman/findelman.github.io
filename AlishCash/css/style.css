@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+body,html{
+    overflow: hidden !important;
+}
 a {    
     color:white;
     font-size: 22px;
@@ -243,9 +246,10 @@ height: 100%;
 .portfolio {
     background: center / cover no-repeat url(..//images/bg3.jpg);
 }
-.portfolio h1:first-child {
+.portfolio span {
     color: #FF8484;
     margin-bottom: -20px;
+    display: block;
 }
 .portfolio small {
     font-weight: 300;

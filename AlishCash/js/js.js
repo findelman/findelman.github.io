@@ -6,6 +6,12 @@ new fullpage('#fullpage', {
   navigation: true,
   // fitToSection: true,
   scrollOverflow:true,
+  slidesNavigation: false,
+  responsiveSlides: true,
+  // new 
+  // verticalCentered: false,
+  // autoScrolling: false,
+  scrollBar: true,
   });
 
 //parallax 
@@ -21,13 +27,13 @@ window.addEventListener('mousemove', function(e) {
 const cards = Array.from(document.querySelectorAll('.hover-card'));
 const props = {
   perspective: '500px',
-  delta: 12, 
+  delta: 30, 
   cardWidth: cards[0].clientWidth,
   cardHeight: cards[0].clientHeight,
 }
 
-const midWidth = props.cardWidth / 2;
-const midHeight = props.cardHeight / 2;
+const midWidth = props.cardWidth / 4;
+const midHeight = props.cardHeight / 4;
 
 for (const card of cards) {
   card.addEventListener('mousemove', mouseOverCard);
@@ -50,3 +56,4 @@ function mouseLeftCard() {
   this.classList.add('mouse-out');
 }
 //end
+new WOW().init();

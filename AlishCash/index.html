@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fullpage.min.css">   
     <link href="https://fonts.googleapis.com/css2?family=Rationale&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="hamburger">
+    <div class="hamburger wow fadeInDownBig
+    ">
         <span></span>
         <span></span>
         <span></span>
@@ -21,7 +23,9 @@
             </div>
             <div class="fixed">
                 <div class="container">
-                    <div class="navbar jc-sb">
+                    <div class="navbar jc-sb wow fadeInDown
+
+                    ">
                         <div class="logo-box">Alish<span>Cash</span></div>
                         <div class="navbar-content jc-sb">
                             <a href="" class="phone">+7 (705) 303 83 59</a>
@@ -82,13 +86,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="main-title">
+                    <div class="main-title wow fadeInLeft" data-wow-delay=.8s>
                         <h1>Меня зовут <span>Алишер</span></h1>
                         <h1>Я занимаюсь  <span>Web</span> - разработкой</h1>
                         <h3>и это сайт портфолио обо мне</h3>
                     </div>
-                    <div class="bottom-nav">
-                        <a href="#SKILLS">
+                    <div class="bottom-nav" data-wow-delay=2s>
+                        <a href="#SKILLS" class="wow fadeIn"data-wow-delay=2s>
                             <svg width="61" height="68" viewBox="0 0 76 74" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M38 72C58.1065 72 74.5 56.269 74.5 36.75C74.5 17.231 58.1065 1.5 38 1.5C17.8935 1.5 1.5 17.231 1.5 36.75C1.5 56.269 17.8935 72 38 72Z" stroke="white" stroke-width="3"/>
                                 <path d="M22.1667 25.0834L37.5834 37.1667L53.4167 25.0834" stroke="white" stroke-width="2"/>
@@ -102,10 +106,10 @@
       </section>
       <section class="section  skills">
           <div class="container">
-                <h1>SKILLS</h1>
+                <h1 class="wow fadeIn" data-wow-delay="0.3s">SKILLS</h1>
                 <div class="skills-content flex">
-                    <div class="sk-left">
-                        <div class="sk-left-box hover-card card-rounded">
+                    <div class="sk-left ">
+                        <div class="sk-left-box hover-card card-rounded wow fadeInLeft" data-wow-delay=".2s">
                             <h3>Дизайн</h3>
                             <div class="p-left">
                                 <h4>UI / UX</h4>
@@ -114,7 +118,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="sk-left-box hover-card card-rounded">
+                        <div class="sk-left-box hover-card card-rounded wow fadeInLeft"data-wow-delay=".4s" >
                             <h3>Верстка</h3>
                             <div class="p-left">
                                 <h4>Html</h4>
@@ -132,7 +136,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="sk-right">
+                    <div class="sk-right wow fadeInRight" data-wow-delay=".8s">
                         <h2>Я много работаю над:</h2>
                         <div class="sk-right-box flex">
                             <div class="number">1</div>
@@ -163,30 +167,46 @@
       </section>
       <section class="section portfolio">
           <div class="container">
-            <h1>PORTFOLIO</h1>
-            <h1>Dream House / <small>Frontend, desing</small></h1>
-            <div class="portfolio-content flex">
-                <div class="bg-frame">
-                    
+            <h1 class="wow fadeIn" data-wow-delay="0.3s"><span>PORTFOLIO</span></h1>
+                <div class="slide">
+                    <h1 class="wow fadeIn" data-wow-delay="0.6s">Dream House / <small>Frontend, desing</small></h1>
+                    <div class="portfolio-content flex wow slideInLeft"
+                    data-wow-delay="0.9s">
+                        <div class="bg-frame">
+                            
+                        </div>
+                        <div class="phone-frame">     
+                
+                        </div>
+                        <div class="btn">
+                            <a href="">СМОТРЕТЬ</a>
+                        </div>
                 </div>
-                <div class="phone-frame">     
-        
-                </div>
-                <div class="btn">
-                    <a href="">СМОТРЕТЬ</a>
+                <div class="slide">
+                    <h1>Dream House / <small>Frontend, desing</small></h1>
+                    <div class="portfolio-content flex">
+                        <div class="bg-frame">
+                            
+                        </div>
+                        <div class="phone-frame">     
+                
+                        </div>
+                        <div class="btn">
+                            <a href="">СМОТРЕТЬ</a>
+                        </div>
                 </div>
             </div>
           </div>
       </section>
       <section class="section  price">
           <div class="container">
-            <h1>PRICE</h1>
-            <h1>Я предостовляю услуги</h1>
+            <h1 class="wow fadeIn" data-wow-delay="0.3s">PRICE</h1>
+            <h1 class="wow fadeIn" data-wow-delay="0.6s">Я предостовляю услуги</h1>
             <div class="price-content jc-sb">
-                <div class="price-box">
+                <div class="price-box wow fadeInLeft"data-wow-delay="0.9s">
                     <svg width="241" height="230" viewBox="0 0 241 230" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0)">
-                        <path d="M218.406 172.5V46.2875C218.387 44.8971 218.078 43.5242 217.498 42.2486C216.918 40.973 216.078 39.8203 215.027 38.8572C213.975 37.8942 212.734 37.1402 211.375 36.639C210.016 36.1377 208.566 35.8993 207.11 35.9375H33.8908C32.4343 35.8993 30.9843 36.1377 29.6252 36.639C28.266 37.1402 27.0249 37.8942 25.9737 38.8572C24.9226 39.8203 24.0825 40.973 23.5023 42.2486C22.9221 43.5242 22.6133 44.8971 22.5939 46.2875V172.5H0.000162713V175.663C-0.0205779 180.474 1.94223 185.101 5.46486 188.543C8.98749 191.986 13.7874 193.968 18.8283 194.063H222.172C227.213 193.968 232.013 191.986 235.535 188.543C239.058 185.101 241.021 180.474 241 175.663V172.5H218.406ZM30.1252 46.2875C30.1437 45.8403 30.2573 45.4013 30.4589 44.9971C30.6605 44.593 30.9461 44.2322 31.2982 43.9365C31.6502 43.6408 32.0616 43.4164 32.5072 43.2769C32.9529 43.1374 33.4236 43.0857 33.8908 43.125H207.11C207.577 43.0857 208.047 43.1374 208.493 43.2769C208.939 43.4164 209.35 43.6408 209.702 43.9365C210.054 44.2322 210.34 44.593 210.541 44.9971C210.743 45.4013 210.857 45.8403 210.875 46.2875V172.5H30.1252V46.2875ZM18.8283 186.875C16.5302 186.748 14.3159 186.006 12.4382 184.735C10.5605 183.464 9.09508 181.715 8.20923 179.688H105.438V186.875H18.8283ZM222.172 186.875H135.563V179.688H232.791C231.905 181.715 230.44 183.464 228.562 184.735C226.684 186.006 224.47 186.748 222.172 186.875Z" fill="#001AFF"/>
+                        <path stroke-dash d="M218.406 172.5V46.2875C218.387 44.8971 218.078 43.5242 217.498 42.2486C216.918 40.973 216.078 39.8203 215.027 38.8572C213.975 37.8942 212.734 37.1402 211.375 36.639C210.016 36.1377 208.566 35.8993 207.11 35.9375H33.8908C32.4343 35.8993 30.9843 36.1377 29.6252 36.639C28.266 37.1402 27.0249 37.8942 25.9737 38.8572C24.9226 39.8203 24.0825 40.973 23.5023 42.2486C22.9221 43.5242 22.6133 44.8971 22.5939 46.2875V172.5H0.000162713V175.663C-0.0205779 180.474 1.94223 185.101 5.46486 188.543C8.98749 191.986 13.7874 193.968 18.8283 194.063H222.172C227.213 193.968 232.013 191.986 235.535 188.543C239.058 185.101 241.021 180.474 241 175.663V172.5H218.406ZM30.1252 46.2875C30.1437 45.8403 30.2573 45.4013 30.4589 44.9971C30.6605 44.593 30.9461 44.2322 31.2982 43.9365C31.6502 43.6408 32.0616 43.4164 32.5072 43.2769C32.9529 43.1374 33.4236 43.0857 33.8908 43.125H207.11C207.577 43.0857 208.047 43.1374 208.493 43.2769C208.939 43.4164 209.35 43.6408 209.702 43.9365C210.054 44.2322 210.34 44.593 210.541 44.9971C210.743 45.4013 210.857 45.8403 210.875 46.2875V172.5H30.1252V46.2875ZM18.8283 186.875C16.5302 186.748 14.3159 186.006 12.4382 184.735C10.5605 183.464 9.09508 181.715 8.20923 179.688H105.438V186.875H18.8283ZM222.172 186.875H135.563V179.688H232.791C231.905 181.715 230.44 183.464 228.562 184.735C226.684 186.006 224.47 186.748 222.172 186.875Z" fill="#001AFF"/>
                         <path d="M37.6562 165.312H203.344V50.3125H37.6562V165.312ZM45.1875 57.5H195.812V158.125H45.1875V57.5Z" fill="#001AFF"/>
                         </g>
                         <defs>
@@ -201,7 +221,7 @@
                         backend</p>
                         <a href="">подробнее</a>
                 </div>
-                <div class="price-box">
+                <div class="price-box wow fadeInRight"data-wow-delay="1.2s">
                     <svg width="205" height="201" viewBox="0 0 235 221" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M231.328 23.7917L210.343 3.19647C208.176 1.06706 205.327 0 202.483 0C199.639 0 196.794 1.06234 194.628 3.19174L177.841 19.6415L214.542 55.6478L231.328 39.2027C235.666 34.9439 235.666 28.0364 231.328 23.7917Z" fill="#CDAFDF"/>
                         <path d="M68.8745 126.532L105.58 162.543L206.687 63.3628L169.982 27.3518L68.8745 126.532Z" fill="#CDAFDF"/>
@@ -214,7 +234,7 @@
                         дизайн для вашего сайта</p>
                         <a href="">подробнее</a>
                 </div>
-                <div class="price-box">
+                <div class="price-box wow fadeInUp" data-wow-delay="1.5s">
                     <svg width="172" height="168" viewBox="0 0 172 168" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M141.623 47.0775L124.319 28.443L144.507 9.69729L135.044 0.23468L102.909 11.7398V49.5979L2.71433 145.306C0.724909 147.206 -3.59006 151.329 5.95466 161.321C15.5005 171.313 19.8144 167.191 21.8038 165.29L122.266 69.3279H162.881L172 37.1922L162.499 27.6908L141.623 47.0775Z" fill="#CCA2A2"/>
                         <path d="M103.892 91.3965L84.3452 110.944L141.311 164.811C142.949 166.361 146.502 169.722 156.089 159.769C165.674 149.819 162.12 146.458 160.481 144.908L103.892 91.3965Z" fill="#CCA2A2"/>
@@ -230,8 +250,8 @@
       </section>
       <section class="section contact">
           <div class="container">
-            <h1>CONTACT</h1>
-            <div class="contact-panel">
+            <h1 class="wow fadeIn" data-wow-delay="0.3s">CONTACT</h1>
+            <div class="contact-panel wow fadeIn" data-wow-delay="1.5s">
                 <a href="" class="phone">+7 (705) 303 83 59</a>
                 <div class="navbar-links flex">
                     <a href="">
@@ -289,11 +309,11 @@
                     <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg></a>
                 </div>
             </div>
-            <div class="form-title">
+            <div class="form-title wow fadeInDown" data-wow-delay="0.6s">
                 Напишите о том чего хотите
                 <p>Я отвечу вам при первой же возможности</p>
             </div>
-            <form action="" class="main-form">
+            <form action="" class="main-form wow fadeInUp" data-wow-delay=".8s">
                 <input type="text" placeholder="Имя" required><input type="email" placeholder="Email" required>
                 <textarea name="" id="" cols="91" rows="3" placeholder="Сообщение" required></textarea>
                 <input type="submit" value="ОТПРАВИТЬ">
@@ -303,6 +323,7 @@
   </div>
     <script src="js/fullpage.min.js"></script>
     <script src="js/scrolloverflow.min.js"></script>
+    <script src="js/wowminjs.js"></script>
     <script src="js/js.js"></script>
 </body>
 </html>
