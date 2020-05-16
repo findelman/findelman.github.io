@@ -26,6 +26,7 @@ h4 {
 }
 
 p {
+    font-weight: 300;
     font-size: 35px;
 }
  section {
@@ -33,7 +34,7 @@ color:white;
 
 } 
 .container {
-    padding: 45px 0px;
+    padding: 30px 0px;
     max-width: 1450px;
     margin: 0 auto;
 }
@@ -105,7 +106,7 @@ transform: scale(0);
 .hamburger {
     cursor: pointer;
     display: flex;
-    top: 55px;
+    top: 41px;
     right: 25px;
     z-index: 1;
     position: fixed;
@@ -189,6 +190,7 @@ height: 100%;
     margin-top: 31px;
 }
 .flex {
+    flex-flow:wrap;
     display: flex;
 }
 .sk-right {
@@ -243,6 +245,7 @@ height: 100%;
 }
 .portfolio h1:first-child {
     color: #FF8484;
+    margin-bottom: -20px;
 }
 .portfolio small {
     font-weight: 300;
@@ -290,4 +293,139 @@ height: 100%;
 }
 .btn a:hover:before {
     width: 100%;
+}
+.price {
+    background: center / cover no-repeat url(../images/price-bg.jpg);
+}
+.price h1:nth-child(1) {
+    color: #FFD600;
+    margin-bottom: -20px;
+}
+.price-box {
+    width: 585px;
+    max-width: 585px;
+    border-radius: 23px;
+    background: #6774EA;
+    padding: 23px 44px;
+    margin: 20px;
+    padding: 16px 37px;
+    position: relative;
+    transition: 500ms;
+}
+.price-box:hover {
+    box-shadow: 0px 4px 100px #FFFFFF;
+}
+.price-box svg {
+    top: 5px;
+    right: 0;;
+    position: absolute;
+}
+.price-box h2 {
+    position: relative;
+    font-weight: 400;
+}
+.price-box a {
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
+    color: white;
+    font-size: 22px;
+    display: block;
+    text-decoration: underline;
+}
+.price-box:nth-child(2) {
+    background: #73637D;
+}
+.price-box:nth-child(3) {
+    background: #C68080;
+}
+.price-box p {
+    position: relative;
+    margin-top: 17px;
+    margin-bottom: 30px;
+}
+.price-content.jc-sb {
+    justify-content: center;
+}
+.price-box:nth-child(3) {
+    margin: 0;
+    margin-top: 20px;
+}
+.contact {
+    position: relative;
+    background: center / cover no-repeat url(../images/contact-bg.jpg);
+}
+.contact-panel {
+    bottom: 150px;
+    transform: rotate(-90deg);
+    position: absolute;
+    margin-left: -41px;
+}
+.contact h1 {
+    color: #6BC1FF;
+}
+.contact-panel .phone {
+    margin-right:unset;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+.form-title {
+    font-weight: 900;
+    font-size: 48px;
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 6%;
+}
+::placeholder {
+    font-size: 25px;
+    color: white;
+}
+::-webkit-input-placeholder {
+    font-size: 25px;
+    color: white;
+}
+.main-form {
+    max-width: 690px;
+    margin: 75px auto 0px;
+}
+.main-form input {
+    font-size: 30px;
+    color: white;
+    outline: none;
+    background: none;
+    border: none;
+    width: 40%;
+    border-bottom: 6px solid #6BC1FF;
+}
+.main-form input:nth-of-type(1) {
+    margin-right: 17%;
+}
+.main-form textarea {
+    margin-top: 35px;
+    max-width: 658px;
+    resize: none;
+    font-size: 30px;
+    color: white;
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 6px solid #6BC1FF;
+}
+input[type="submit"] {
+    border: 1px solid #6BC1FF;
+    color: #6BC1FF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 31px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    cursor: pointer;
+    margin-top: 45px;
+    transition: 500ms;
+}
+input[type="submit"]:hover {
+    background-color: #6BC1FF;
+    color:white;
 }

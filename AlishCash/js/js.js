@@ -1,12 +1,11 @@
 new fullpage('#fullpage', {
 	sectionsColor: ['yellow', 'orange', '#C0C0C0', '#ADD8E6'],
 	  anchors:['Main', 'SKILLS'],
-	  navigationTooltips: ['Главная', 'SKILLS', 'PORTFOLIO', ],
+	  navigationTooltips: ['Главная', 'SKILLS', 'PORTFOLIO','PRICE', 'CONTACT' ],
 	  slidesNavigation: true,
-	navigation: true,
-	scrollOverflowReset: true,
-	// responsiveHeight: 500,
-	parallax: true,
+  navigation: true,
+  // fitToSection: true,
+  scrollOverflow:true,
   });
 
 //parallax 
