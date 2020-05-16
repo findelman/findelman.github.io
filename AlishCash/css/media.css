@@ -151,5 +151,16 @@ h1 {
   .contact-panel .phone {
       display: none;
   }
+}
+@media screen and (max-width:450px) {
+    body,html{     
+        overflow: unset !important;
+    }
+    .fp-scrollable {
+        height: 100% !important;
+    }
+    .fp-tableCell {
+        height: 100% !important;
+    }
 
 }

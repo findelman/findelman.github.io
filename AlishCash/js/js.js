@@ -14,7 +14,7 @@ new fullpage('#fullpage', {
   // afterLoad : function ( anchorLink ,  index ) { 
   //   $ ( '.toanimate' ) . addClass ( 'animated fadeInLeftBig' ) ; 
   //   } ,
-  // responsiveWidth: 400,  
+  responsiveWidth: 450,  
   
   });
 
