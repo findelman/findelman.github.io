@@ -1,4 +1,10 @@
 
+@media screen and (min-height: 1080px ){
+    .container {
+        zoom: 123%;
+        padding: 50px 35px 0px 10px;
+    }
+}
 @media screen and (max-width:1480px){
     .mouse-parallax {width: 115%;}
 }
