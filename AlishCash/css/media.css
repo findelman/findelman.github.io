@@ -3,6 +3,7 @@
     .container {
         zoom: 123%;
         padding: 50px 35px 0px 10px;
+        -moz-transform: scale(1.25) !important;
     }
 }
 @media screen and (max-width:1480px){
@@ -75,7 +76,7 @@
     }
 }
 @media screen and (max-width: 763px) {
-    .navbar-links {
+    .navbar-content .navbar-links {
         display: none;
     }
     .navbar-content {
@@ -153,9 +154,6 @@ h1 {
   }
   .main-title {
       margin-top: 120px;
-  }
-  .contact-panel .phone {
-      display: none;
   }
 }
 @media screen and (max-width:450px) {
