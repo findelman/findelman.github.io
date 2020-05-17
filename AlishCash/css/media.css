@@ -169,10 +169,17 @@ h1 {
         overflow: hidden;
     }
     .bottom-nav {
-        margin-top: 47%;
+        margin-top: 44%;
     }
     .container {
         padding: 30px 0px 50px 6px;
     }
-
+    .fp-controlArrow.fp-prev {
+        left: 10%;
+          width: 36%;
+      }
+      .fp-controlArrow.fp-next {
+        right: 16%;
+          width: 25%;
+      }
 }
