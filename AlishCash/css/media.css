@@ -162,5 +162,11 @@ h1 {
     .fp-tableCell {
         height: 100% !important;
     }
+    .mouse-parallax {
+        overflow: hidden;
+    }
+    .portfolio  {
+        height: 601px !important;
+    }
 
 }
