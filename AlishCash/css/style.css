@@ -179,7 +179,13 @@ display: none;
     margin-right: 10%;
     right: 5%;
 }
-.hamburger-menu li {
+.hamburger-link a:hover {
+    color: #FFA800;
+    transform: translateX(40px);
+}
+.hamburger-menu a {
+    display: inline-block;
+    transition: 500ms;
     margin-bottom: 20px;
 }
 .hamburger-menu a {
