@@ -22,7 +22,7 @@
     
 }
 @media screen and (max-width:1480px){
-    .mouse-parallax {width: 115%;}
+    .mouse-parallax {width: 128%;}
 }
 @media screen and (max-width: 1274px) {
     .sk-left {
@@ -136,7 +136,7 @@
         flex-flow: column;
         display: flex;
         align-items: center;
-        width: 100%;
+        width: 95%;
         bottom: 43px;
         -webkit-transform: rotate(-90deg);
         -ms-transform: rotate(-90deg);
