@@ -132,6 +132,17 @@
     h3 {
         font-size: 30px;
     }
+    .contact-panel {
+        flex-flow: column;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        bottom: 43px;
+        -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        transform: unset;
+        margin-left:unset;
+    }
   }
 @media screen and (max-width:626px) {
     .price-box  {
