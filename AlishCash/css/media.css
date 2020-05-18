@@ -142,6 +142,7 @@
         -ms-transform: rotate(-90deg);
         transform: unset;
         margin-left:unset;
+        margin-top: 70px;
     }
   }
 @media screen and (max-width:626px) {
