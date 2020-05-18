@@ -53,6 +53,7 @@ color:white;
     position: relative;
 }
 .header {
+    min-height: 695px;
     position: relative;
 }
 .fixed {
@@ -160,7 +161,7 @@ display: none;
 }
 .active ~ .hamburger-menu {
     opacity: 1;
-    visibility:visible
+    visibility:visible;
 }
 .hamburger-menu {
     visibility: hidden;

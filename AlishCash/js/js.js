@@ -11,10 +11,9 @@ new fullpage('#fullpage', {
   // verticalCentered: false,
   // autoScrolling: false, 
   scrollBar: true,
-  // afterLoad : function ( anchorLink ,  index ) { 
-  //   $ ( '.toanimate' ) . addClass ( 'animated fadeInLeftBig' ) ; 
-  //   } ,
   responsiveWidth: 500,  
+  // dragAndMove: false,
+  // normalScrollElements: '.portfolio-content',  
   
   });
 

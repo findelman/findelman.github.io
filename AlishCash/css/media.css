@@ -2,7 +2,7 @@
     .container {
         /* zoom: 123%; */
         padding: 103px 35px 0px 10px;
-        /* -moz-transform: scale(1.25) !important; */
+        -moz-transform: scale(1.23) !important;
         -webkit-transform: scale(1.23);
             -ms-transform: scale(1.23);
                 transform: scale(1.23);   
@@ -213,6 +213,7 @@ h1 {
     .container {
         padding: 30px 0px 50px 6px;
     }
+    
     .fp-controlArrow.fp-prev {
         left: 10%;
           width: 36%;
