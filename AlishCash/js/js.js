@@ -61,3 +61,18 @@ function mouseLeftCard() {
 }
 //end
 new WOW().init();
+// hamburger 
+let hamburger = document.querySelector('.hamburger');
+
+hamburger.addEventListener('click', function(){
+  hamburger.classList.toggle('active'); 
+})
+// let btns = document.querySelector('.hamburger-menu');
+// btns.onclick = function() {
+//   hamburger.classList.remove("active");
+// } работает при нажатий на бэкрагунд
+let linkclose = document.querySelector('.hamburger-link');
+    linkclose.onclick = function() {
+  hamburger.classList.remove("active");
+}
+//end
