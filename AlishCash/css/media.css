@@ -223,4 +223,7 @@ h1 {
         right: 16%;
           width: 25%;
       }
+    .section {
+        overflow:hidden;
+    }
 }
