@@ -11,28 +11,27 @@ body,html{
     cursor: default;
     overflow: hidden !important;
 }
-a {    
-    color:white;
-    font-size: 22px;
+h4 {
+    font-size: 2.5vmax;
+    font-weight: 300;
 }
 h1 {
-    font-size: 72px;
-}
-h2 {
-    font-size: 54px;
+    font-size: 4.8vmax;
 }
 h3 {
-    font-size: 45px;
+    font-size: 3.4vmax;
     font-weight: 300;
 }
-h4 {
-    font-size: 39px;
-    font-weight: 300;
-}
-
 p {
-    font-weight: 300;
-    font-size: 35px;
+    font-size: 2.2vmax;
+    font-weight: 100;
+}
+h2 {
+    font-size: 3.33vmax;
+}
+a {
+    color:white;
+    font-size: 1.4vmax;
 }
  section {
 color:white;
@@ -207,6 +206,7 @@ display: none;
     width: 32px;
 }
 .main-title {
+    text-align: center;
     margin-top: 190px;
 }
 .main-title h1:nth-child(2) {
@@ -243,6 +243,7 @@ display: none;
     margin-bottom: 21px;
 }
 .sk-left-box  h3{
+    font-size: 2.9vmax;
 font-weight: bold;
 }
 .p-left {
@@ -362,18 +363,14 @@ height: 100%;
     width: 50%;
     overflow: hidden;
 }
-.bg-frame img {
+.bg-frame img,
+.phone-frame img {
     width: 100%;
 }
 .phone-frame {
     margin-left: 70px;
     margin-top: 15px;
-
-    width: 16%;
-  
-}
-.phone-frame img {
-    width: 100%;
+    width: 16%;  
 }
 .btn {
     margin-top: auto;
@@ -435,8 +432,10 @@ height: 100%;
 }
 .price-box svg {
     top: 5px;
-    right: 0;;
+    right: 0;
     position: absolute;
+    width: 41%;
+    height: 85%;
 }
 .price-box h2 {
     position: relative;
