@@ -86,13 +86,11 @@
     }
     .sk-left-box {
         padding: 11px 37px 20px;
+        width: unset;
     }
     .sk-left {
         width: 29%;
-    }
-    .sk-left-box {
-        width: unset;
-    }
+    }   
     .container {
         max-width: 1195px;
     }
@@ -118,6 +116,10 @@
     .sk-right .sk-right-box:nth-child(4) {  
         min-width: 432px;
     }
+    .mouse-parallax {
+        width: 111%;
+    }
+    
 }
 @media screen and (max-width: 1290px) {
     .sk-right:before {
@@ -134,7 +136,7 @@
     a{
         font-size: 1.6vmax;
     }
-}
+ }
 @media screen and (max-width: 900px) {
     .sk-left {
         width: 100%;
