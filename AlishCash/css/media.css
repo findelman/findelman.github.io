@@ -1,4 +1,4 @@
-@media screen and (min-height: 950px) {
+@media screen and (min-height: 940px) {
 
     .container {
         max-width: 1644px;
@@ -15,7 +15,7 @@
         height: 76px;
     }
     .sk-left {
-        width: 34%;
+        width: 31%;
     }
     .sk-left-box { 
         padding: 27px 49px 52px;
@@ -86,11 +86,13 @@
     }
     .sk-left-box {
         padding: 11px 37px 20px;
-        width: unset;
     }
     .sk-left {
         width: 29%;
-    }   
+    }
+    .sk-left-box {
+        width: unset;
+    }
     .container {
         max-width: 1195px;
     }
@@ -116,10 +118,6 @@
     .sk-right .sk-right-box:nth-child(4) {  
         min-width: 432px;
     }
-    .mouse-parallax {
-        width: 111%;
-    }
-    
 }
 @media screen and (max-width: 1290px) {
     .sk-right:before {
@@ -136,7 +134,7 @@
     a{
         font-size: 1.6vmax;
     }
- }
+}
 @media screen and (max-width: 900px) {
     .sk-left {
         width: 100%;
@@ -153,7 +151,6 @@
         display: none;
     }
     .sk-right {
-        width: 100%;
         margin-top: 20px;
     }
     .price-box {
@@ -227,7 +224,7 @@
         font-size: 3.2vmax;
     }
     .sk-left-box {
-        padding: 16px 44px 33px;
+        padding: 16px 27px 33px;
     }
     .sk-left-box h3 {
         font-size: 3.9vmax;
@@ -253,10 +250,7 @@
           width: 25%;
       }
       .mouse-parallax {width: 128%;}
-      .main-title {
-          text-align: left;
-      }
       .contact {
-          min-height: 750px !important;
-      }
+        min-height: 747px;
+    }
 }
