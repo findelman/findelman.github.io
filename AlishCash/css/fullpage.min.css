@@ -13,3 +13,10 @@
     top: 5px;
 
 }
+.fp-controlArrow {
+    transition: 200ms;
+}
+.fp-controlArrow:active {
+    width: 20%;
+    height: 55px;
+}
