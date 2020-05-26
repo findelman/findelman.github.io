@@ -593,6 +593,9 @@ input[type="submit"]:hover {
     z-index: 20;
     background: #e0e0e0;
 }
+.preloader svg {
+    width: 100px;
+}
 .loaded_hiding .preloader {
     transition: 0.3s opacity;
     opacity: 0;
