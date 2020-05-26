@@ -66,10 +66,12 @@ let hamburger = document.querySelector('.hamburger');
 hamburger.addEventListener('click', function(){
   hamburger.classList.toggle('active'); 
 })
+
 // let btns = document.querySelector('.hamburger-menu');
 // btns.onclick = function() {
 //   hamburger.classList.remove("active");
 // } работает при нажатий на бэкрагунд
+
 let linkclose = document.querySelector('.hamburger-link');
     linkclose.onclick = function() {
   hamburger.classList.remove("active");
@@ -87,8 +89,15 @@ window.onload = function () {
 //end
 
 //scroll addClass
-$(window).scroll(function(){
-  $('.progress-bar').toggleClass('progress-width', $(this).scrollTop() > 500);
-});
 
+// 1) имеет повторную анимацию при скролле сверху-вниз
+// $(window).scroll(function(){
+//   $('.progress-bar').toggleClass('progress-width', $(this).scrollTop() > 500);
+// });
+
+//2) не имеет повторной анимации 
+$(window).scroll(function() {    
+  let scroll = $(window).scrollTop();
+  if (scroll >= 500) { $(".progress-bar").addClass("progress-width"); }}); 
+  
 //end

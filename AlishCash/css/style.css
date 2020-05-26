@@ -278,7 +278,7 @@ font-weight: bold;
 border-radius: 36px;
 width: 0%;
 height: 100%;
-transition: 5s;
+transition: 3.5s;
 }
 .sk-left-box:nth-child(2) {
     background: -o-linear-gradient(169.96deg, #CDAC38 -7.23%, #F23F3F 92.34%);
