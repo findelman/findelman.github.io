@@ -271,12 +271,14 @@ font-weight: bold;
     background: rgba(216, 211, 211, 0.54);    
     border-radius: 36px;
 }
+
 .progress-bar div {
     background: -o-linear-gradient(178.75deg, #FFFFFF -32.16%, rgba(255, 255, 255, 0) 102.97%), #FFA800;
     background: linear-gradient(271.25deg, #FFFFFF -32.16%, rgba(255, 255, 255, 0) 102.97%), #FFA800;
 border-radius: 36px;
-width: 84%;
+width: 0%;
 height: 100%;
+transition: 5s;
 }
 .sk-left-box:nth-child(2) {
     background: -o-linear-gradient(169.96deg, #CDAC38 -7.23%, #F23F3F 92.34%);
@@ -284,6 +286,21 @@ height: 100%;
     -webkit-box-shadow: 0px 4px 100px #AA1035;
             box-shadow: 0px 4px 100px #AA1035;
     margin-top: 31px;
+}
+.sk-left-box:nth-child(2) .progress-bar div {
+    transition-delay: .5s;
+}
+.progress-width div {
+    width: 85%;
+}
+.sk-left-box:nth-child(2) .progress-width div {
+    width: 100%;
+}
+.sk-left-box:nth-child(2) .progress-width:nth-child(4) div {
+    width: 95%;
+}
+.sk-left-box:nth-child(2) .progress-width:nth-child(6) div {
+    width: 66%;
 }
 .flex {
     -ms-flex-flow:wrap;

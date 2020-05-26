@@ -1,7 +1,7 @@
 new fullpage('#fullpage', {
 	sectionsColor: ['yellow', 'orange', '#C0C0C0', '#ADD8E6'],
 	  anchors:['Main', 'SKILLS'],
-	  navigationTooltips: ['Главная', 'SKILLS', 'PORTFOLIO','PRICE', 'CONTACT' ],
+	  navigationTooltips: ['Главная', 'SKILLS', 'PORTFOLIO','SERVICE', 'CONTACT' ],
 	  slidesNavigation: true,
   navigation: true,
   // fitToSection: true,
@@ -75,6 +75,8 @@ let linkclose = document.querySelector('.hamburger-link');
   hamburger.classList.remove("active");
 }
 //end
+
+//preloader
 window.onload = function () {
   document.body.classList.add('loaded_hiding');
   window.setTimeout(function () {
@@ -82,3 +84,11 @@ window.onload = function () {
     document.body.classList.remove('loaded_hiding');
   }, 500);
 }
+//end
+
+//scroll addClass
+$(window).scroll(function(){
+  $('.progress-bar').toggleClass('progress-width', $(this).scrollTop() > 500);
+});
+
+//end
