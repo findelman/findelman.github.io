@@ -256,6 +256,7 @@ font-weight: bold;
     margin-top: 15px;
 }
 .sk-left-box {
+    transform-style: preserve-3d;
     background: -o-linear-gradient(163.78deg, #737693 -7.23%, rgba(65, 69, 105, 0.526042) 51.72%, rgba(255, 255, 255, 0) 92.34%), #422CCB;
     background: linear-gradient(286.22deg, #737693 -7.23%, rgba(65, 69, 105, 0.526042) 51.72%, rgba(255, 255, 255, 0) 92.34%), #422CCB;
     -webkit-box-shadow: 0px 4px 100px #422CCB;
@@ -263,6 +264,12 @@ font-weight: bold;
     border-radius: 26px;
     text-align: center;
     padding: 16px 44px 33px;
+}
+.sk-left-box:not(:hover) {
+    transform: scale(1) !important;
+}
+.sk-3d {
+    transform: translateZ(30px);
 }
 .progress-bar {
     margin-top: 13px;
@@ -280,26 +287,26 @@ width: 0%;
 height: 100%;
 transition: 3.5s;
 }
-.sk-left-box:nth-child(2) {
+.sk-left div:nth-child(2) .sk-left-box {
     background: -o-linear-gradient(169.96deg, #CDAC38 -7.23%, #F23F3F 92.34%);
     background: linear-gradient(280.04deg, #CDAC38 -7.23%, #F23F3F 92.34%);
     -webkit-box-shadow: 0px 4px 100px #AA1035;
             box-shadow: 0px 4px 100px #AA1035;
     margin-top: 31px;
 }
-.sk-left-box:nth-child(2) .progress-bar div {
+.sk-left div:nth-child(2) .sk-left-box .progress-bar div {
     transition-delay: .5s;
 }
 .progress-width div {
     width: 85%;
 }
-.sk-left-box:nth-child(2) .progress-width div {
+.sk-left div:nth-child(2) .sk-left-box .progress-width div {
     width: 100%;
 }
-.sk-left-box:nth-child(2) .progress-width:nth-child(4) div {
+.sk-left div:nth-child(2) .sk-left-box .progress-width:nth-child(4) div {
     width: 95%;
 }
-.sk-left-box:nth-child(2) .progress-width:nth-child(6) div {
+.sk-left div:nth-child(2) .sk-left-box .progress-width:nth-child(6) div {
     width: 66%;
 }
 .flex {
@@ -335,13 +342,6 @@ transition: 3.5s;
     margin-left: 20px;
     margin-top: 19px;
 }
-.hover-card.card-rounded.mouse-out {
-    -webkit-transform: rotateX(0) rotateY(0) !important;
-            transform: rotateX(0) rotateY(0) !important;
-    -webkit-transition: 0.8s ease-out;
-    -o-transition: 0.8s ease-out;
-    transition: 0.8s ease-out;
-  }
 .number {
     width: 80px;
     height: 80px;
