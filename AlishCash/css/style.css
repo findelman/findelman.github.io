@@ -635,7 +635,7 @@ input[type="submit"]:hover {
 .reviews-box {
     transition: 500ms;
     width: 43%;
-    margin-top: 115px;
+    margin-top: 40px;
     background:white;
     padding: 19px 42px 19px 19px;
     border-radius: 44px;
