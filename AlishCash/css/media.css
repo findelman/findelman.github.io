@@ -255,4 +255,39 @@
       .contact {
         min-height: 747px;
     }
+    /* reviews.html */
+    .reviews-box {
+        padding: 19px;
+        width: 100%;
+    }
+    .stars svg {
+        width: 20px;
+    }
+    .reviews-user {
+        margin-left: 19px;
+    }
+    .user-svg {
+        height: auto;
+        width: 77px;
+    }
+    .reviews-box p {
+        font-size: 3vmax;
+    }
+    .reviews-title h2,
+    .reviews-title h3 {
+        font-size: 3.2vmax;
+    }
+    .reviews-title h2 svg {
+        margin: 4px;
+        width: 24px;
+    }
+    .reviews {
+        height: auto !important;
+    }
+    .reviews-box:nth-child(2) {
+        margin-top: 29px;
+    }
+    /* reviews.html end */
 }
+
+
