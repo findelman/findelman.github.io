@@ -1,6 +1,6 @@
 new fullpage('#fullpage', {
 	sectionsColor: ['yellow', 'orange', '#C0C0C0', '#ADD8E6'],
-	  anchors:['Main', 'SKILLS'],
+	  anchors:['Main', 'SKILLS', 'PORTFOLIO', 'SERVICE', 'CONTACT' ],
 	  navigationTooltips: ['Главная', 'SKILLS', 'PORTFOLIO','SERVICE', 'CONTACT' ],
 	  slidesNavigation: true,
   navigation: true,
