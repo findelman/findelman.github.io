@@ -236,6 +236,7 @@ display: none;
 }
 .skills {
     background: center / cover no-repeat url(..//images/bg2.jpg);
+    background-attachment: fixed;
 }
 .skills h1 {
     color: #8F00FF;
@@ -321,22 +322,22 @@ transition: 3.5s;
     margin-left: 60px;
     position: relative;
 }
-.sk-right:before {
+.sk-f-arrow {
     position: absolute;
-    content: '';
     background: center / contain no-repeat url(..//images/line1.png);
-    width: 92px;
-    height: 189px;
-    top: 153px;
+    width: 11.5%;
+    height: 28%;
+    top: 26%;
+    left: 1%;
 }
-.sk-right:after {
-    left: 75px;
+.sk-r-arrow {
+    left: 6%;
     position: absolute;
     content: '';
     background: center / contain no-repeat url(..//images/line2.png);
-    width: 120px;
-    height: 182px;
-    top: 351px;
+    width: 25%;
+    height: 28%;
+    top: 57%;
 }
 .sk-right-box{
     margin-left: 20px;
@@ -368,6 +369,7 @@ transition: 3.5s;
 }
 .portfolio {
     background: center / cover no-repeat url(..//images/bg3.jpg);
+    background-attachment: fixed;
 }
 .portfolio span {
     color: #FF8484;
@@ -427,6 +429,7 @@ transition: 3.5s;
 }
 .price {
     background: center / cover no-repeat url(../images/price-bg.jpg);
+    background-attachment: fixed;
 }
 .price h1:nth-child(1) {
     color: #FFD600;
@@ -496,6 +499,7 @@ transition: 3.5s;
 .contact {
     position: relative;
     background: center / cover no-repeat url(../images/contact-bg.jpg);
+    background-attachment: fixed;
     min-height: 715px;
 }
 .contact-panel {

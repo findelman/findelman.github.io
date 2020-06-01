@@ -25,13 +25,6 @@
     .sk-left-box h3 {
         font-size: 2.5vmax;
     }
-    .sk-right:after {
-        height: 323px;
-        left: 85px;
-    }
-    .sk-right:before {
-        height: 273px;
-    }
     .phone-frame {
         width: 19%;
         margin-top: unset;
@@ -103,10 +96,6 @@
         height: 150px;
         top: 306px;
     }
-    .sk-right:before {
-        height: 148px;
-        top: 142px;
-    }
     .main-title  {
         margin-top: 143px;
     }
@@ -122,17 +111,7 @@
     }
 }
 @media screen and (max-width: 1290px) {
-    .sk-right:before {
-        height: 26%;
-        top: 31%;
-        width: 18%;
-    }
-    .sk-right:after {
-        left: 6%;
-        height: 27%;
-        top: 60%;
-        width: 27%;
-    }
+
     a{
         font-size: 1.6vmax;
     }
@@ -147,8 +126,8 @@
     .sk-right{
         margin-left: unset;
     }
-    .sk-right:after,
-    .sk-right:before,
+    .sk-f-arrow,
+    .sk-r-arrow,
     .phone-frame {
         display: none;
     }
