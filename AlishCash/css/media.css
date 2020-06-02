@@ -17,7 +17,13 @@
         width: 31%;
     }
     .sk-left-box { 
-        padding: 16px 49px 52px;
+        padding: 16px 49px 36px;
+    }
+    .sk-left div:nth-child(2) .sk-left-box {
+        margin-top: 38px;
+    }
+    .sk-left-box h4 {
+        margin-top: 19px;
     }
     .progress-bar {
         height: 24px;
