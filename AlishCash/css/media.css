@@ -284,6 +284,12 @@
       margin: 150px auto;
       width: 90%;
   }
+  .tab-task p {
+      font-size: 5.5vw;
+  }
+  .tabs-task-title {
+    font-size: 5.44vw;
+  }
   .close {
       margin: 0 auto;  right: 0; left: 0; top: 79px;
   }
