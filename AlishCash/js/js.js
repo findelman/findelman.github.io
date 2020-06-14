@@ -62,6 +62,32 @@ window.onload = function () {
 }
 //end
 
+
+//tabs 
+$(".tab_btn").click(function(){$(".tabs-container, .tabs-center").addClass("show")}),$(".tabs-container").click(function(){$(".tabs-container, .tabs-center").removeClass("show")}),$(".tab_btn1").click(function(){$(".tabs1, .tabs-panel:nth-child(1)").addClass("active")}),$(".tab_btn1").click(function(){$(".tabs2, .tabs3, .tabs-panel:nth-child(2), .tabs-panel:nth-child(3)").removeClass("active")}),$(".tab_btn2").click(function(){$(".tabs1, .tabs3, .tabs-panel:nth-child(1), .tabs-panel:nth-child(3)").removeClass("active")}),$(".tab_btn2").click(function(){$(".tabs2, .tabs-panel:nth-child(2)").addClass("active")}),$(".tab_btn3").click(function(){$(".tabs3, .tabs-panel:nth-child(3)").addClass("active")}),$(".tab_btn3").click(function(){$(".tabs2, .tabs1, .tabs-panel:nth-child(1), .tabs-panel:nth-child(2)").removeClass("active")});
+
+const tabLinks = document.querySelectorAll(".tabs a");
+const tabPanels = document.querySelectorAll(".tabs-panel");
+
+for (let el of tabLinks) {
+  el.addEventListener("click", e => {
+    e.preventDefault();
+
+    document.querySelector(".tabs li.active").classList.remove("active");
+    document.querySelector(".tabs-panel.active").classList.remove("active");
+
+    const parentListItem = el.parentElement;
+    parentListItem.classList.add("active");
+    const index = [...parentListItem.parentElement.children].indexOf(parentListItem);
+
+    const panel = [...tabPanels].filter(el => el.getAttribute("data-index") == index);
+    panel[0].classList.add("active");
+    });
+  }
+
+
+//tabs end
+
 //scroll addClass
 
 // 1) имеет повторную анимацию при скролле сверху-вниз

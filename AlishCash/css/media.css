@@ -32,11 +32,11 @@
         font-size: 2.5vmax;
     }
     .phone-frame {
-        width: 19%;
+        width: 17.7%;
         margin-top: unset;
     }
     .bg-frame {
-        width: 57%;
+        width: 54%;
     }
     .price-box a {
         font-size: 1.6vmax;
@@ -240,6 +240,52 @@
       .contact {
         min-height: 747px;
     }
+    .tabs-wrapper.grid {
+        grid: auto / repeat(1, 1fr);
+    }
+    .tabs-panel:nth-child(2) .tabs-box:nth-child(3) {
+        grid-column:unset;
+    }
+    .tabs-box:nth-child(even) {
+        margin-left: unset;
+    }
+    .tabs a {
+        font-size: 0;
+    }
+    .tabs li {
+      width: 33.4%;
+    }
+  
+    .tabs li a {
+      border-radius: 0;
+      opacity: .8;
+      top: 0;
+    }
+ 
+    .tabs-content {
+      border-radius: 0;
+    }
+    .tabs-panel .number {
+      width: 48px;
+      height: 44px;
+      font-size: 27px;
+      min-width: 48px;
+      margin-right:10px;
+  }
+  ul.tabs svg,
+  .tabs img {
+      width: 69px;
+      height: 38px;
+  }
+  .tabs-box:nth-last-child(1) {
+      margin-bottom: unset;
+  }
+  .tabs-center {
+      margin: 150px auto;
+  }
+  .close {
+      margin: 0 auto;  right: 0; left: 0; top: 79px;
+  }
     /* reviews.html */
     .reviews-box {
         padding: 19px;
@@ -273,6 +319,7 @@
         margin-top: 29px;
     }
     /* reviews.html end */
+    
 }
 
 
