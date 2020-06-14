@@ -242,10 +242,7 @@
     }
     .tabs-wrapper.grid {
         grid: auto / repeat(1, 1fr);
-    }
-    .tabs-panel:nth-child(2) .tabs-box:nth-child(3) {
-        grid-column:unset;
-    }
+    } 
     .tabs-box:nth-child(even) {
         margin-left: unset;
     }
@@ -292,6 +289,24 @@
   }
   .close {
       margin: 0 auto;  right: 0; left: 0; top: 79px;
+  }
+  .sk-rigt-p br {
+      display: none;
+  }
+  .sk-right-box.flex {
+      flex-flow: nowrap;
+  }
+  /* .sk-right {
+      width: 100%;
+  } */
+  .sk-right .sk-right-box:nth-child(4) {
+      min-width: unset;
+  }
+  .sk-rigt-p{
+      width: 78%;
+  }
+  p {
+      font-size: 5vw;
   }
     /* reviews.html */
     .reviews-box {
