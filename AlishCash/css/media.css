@@ -282,6 +282,7 @@
   }
   .tabs-center {
       margin: 150px auto;
+      width: 90%;
   }
   .close {
       margin: 0 auto;  right: 0; left: 0; top: 79px;
@@ -317,6 +318,9 @@
     }
     .reviews-box:nth-child(2) {
         margin-top: 29px;
+    }
+    .reviews-box:hover {
+        transform: unset;
     }
     /* reviews.html end */
     
