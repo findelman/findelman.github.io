@@ -1,0 +1,334 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+h1 {
+    font-size: 73px;
+}
+h2 {
+    font-size: 64px;
+}
+h3 {
+    font-size: 56px;
+}
+p {
+    font-size: 35px;
+}
+.container {
+    padding: 0px 15px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.jc-sb {
+    flex-flow: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex {
+    display: flex;
+}
+.flex-c {
+    display: flex;
+    align-items: center;
+}
+.navbar {
+    padding-top: 34px;
+}
+.menu ul {
+    display: flex;
+} 
+.menu a {
+    margin-right: 46px;
+    color: white;
+    font-size: 28px;
+}
+.social img {
+    margin-right: 28px;
+}
+.logo-box {
+    letter-spacing: 0.255em;
+    font-size: 23px;
+    font-weight: black;
+    color:white;
+    margin-right: 64px;
+}
+.header {
+    color:white;
+    background: top / cover no-repeat url(../imgaes/header-bg.png);
+    padding-bottom: 140px;
+}
+.hamburger {
+    top: 37px;
+    right: 20px;
+    position: fixed;
+    display: none;
+    cursor: pointer;
+    z-index: 3;
+}
+.hamburger-menu {
+    opacity: 0;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #44649ead;
+    visibility: hidden;
+}
+.hamburger-content {
+    padding: 40px;
+    z-index: 2;
+    position: fixed;
+    transition: 500ms;
+    background: #65A1E9;
+    width: 40%;
+    height: 100%;
+    transform: translateX(-100%);
+}
+.ham-logo {
+    margin-bottom: 40px;
+    text-align:center;
+}
+.hamburger-content a {
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block;
+    color:white;
+    /* color:#b0fff6; */
+    font-size: 28px;
+}
+.ham-logo p {
+    color:white;
+    font-size: 28px;
+}
+.active ~ .hamburger-content {
+transform: unset;
+}
+.hamburger span {
+    transition: 500ms;
+    width: 35px;
+    height: 2px;
+    margin: 8px 0px;
+    background: white;
+    display: block;
+}
+option {
+    padding: 40px;
+    background:#456aebad;
+}
+.active ~ .hamburger-menu {
+    opacity: 1;
+    visibility: visible;
+}
+.hamburger.active span:first-child {
+    transform: translateY(10px) rotate(45deg);
+  }
+  .hamburger.active span:nth-child(2) {
+    transform: scaleX(0);
+  }
+  .hamburger.active span:last-child {
+    transform: translateY(-10px) rotate(-45deg);
+  }
+.header-title {
+    margin-top: 150px;
+}
+.header-title h1 {
+    color: #65A1E9;
+    font-style: italic;
+}
+.header-title h3 {
+    font-style: italic;
+}
+.header-title p {
+    margin: 19px 0px 41px;
+}
+.header-title .btn {
+    border-radius: 2px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 34px;
+    background: #65A1E9;
+    padding: 19px 50px;
+}
+.discover {
+    background: #456AEB;
+    box-shadow: 0px 4px 81px #3C82EA;
+    border-radius: 23px;
+    padding: 65px 37px;
+    width: 70%;
+    margin:  77px auto 0px;
+}
+.discover input,
+.discover select {
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    font-size: 24px;
+    color:white;
+    background: rgba(255, 255, 255, 0.47);
+    outline:none;
+    border:none;
+    padding: 20px 12px;
+    position:relative;
+    width: 100%;
+}
+.discover div {
+    display: flex;
+    align-items: center;
+    position: relative;
+        width: 22%;
+}
+.discover .btn_info {
+    width: unset;
+}
+::-webkit-calendar-picker-indicator { background: 
+    transparent; }
+    
+ .buss:before,
+ .town:before,
+ .date:before{
+     right: 9px;
+    content:'';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+.buss:before {
+    background: center / cover no-repeat url(../imgaes/buss-d.png);
+}
+.town:before {
+    background: center / cover no-repeat url(../imgaes/mark.png);
+}
+.date:before {
+    background: center / cover no-repeat url(../imgaes/date.png);
+}
+.btn {
+    transition:500ms;
+    cursor: pointer;
+}
+.btn:hover {
+    transform: scale(1.05);
+}
+.btn_info {
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+font-size: 24px;
+background: #000;
+background: #65A1E9;
+border-radius: 44px;
+padding: 12px 48px;
+}
+section {
+    color:white;
+}
+.advant-content {
+    margin-top: 50px;
+}
+.advant {
+    background: top / cover no-repeat url(../imgaes/advant-bg.png);
+    padding: 52px 0px 00px;
+    text-align: center;
+}
+.advant-box {
+    margin-bottom: 73px;
+    text-align: left;
+    width: 43%;
+    background:  #2339FF;
+    padding: 25px 15px;
+    border-radius: 34px;
+}
+.advant-box img {
+margin-right: 30px;
+transition: 500ms;
+}
+.advant-box:hover img {
+    transform: rotate(15deg);
+}
+.advant-box.flex {
+    align-items: flex-start;
+}
+.memory-skew {
+    padding: 35px 0px 75px 254px;
+    transform: skewX(30deg) translateX(-170px);
+    background: #3D52BD;
+    width: 72%;
+    box-shadow: 6px 0px 91px #1C8CDD;
+    overflow:hidden;
+}
+.memory-dskew  {
+    transform: skewX(-30deg);
+}
+/* .memory-bg img {
+    width: 100%;
+    height: 100%;
+} */
+/* .memory-bg {
+    background: center / cover no-repeat url(../imgaes/memory-bg.png);
+} */
+
+.memory-skew a{
+    font-size: 36px;
+    color: #8AEAFF;
+}
+.memory-dskew .flex {
+    margin: 21px 0px 32px;
+}
+.memory-dskew .btn_info {
+    margin-top: 47px;
+}
+.memory-bg {
+    background: 109%  39% / 52% 100% no-repeat url(../imgaes/memory-bg.png), #0066b7 left;
+}
+.see {
+    background: center / 101% 102% no-repeat url(../imgaes/see-bg.png);
+    padding: 150px 0px 83px;
+}
+.line {
+    background: white;
+    width: 4px;
+}
+.see-title {
+    width: 46%;
+}
+.see-title h1 {
+    color: #8AEAFF;
+}
+.see-title h3 {
+    font-weight: normal;
+}
+.see-title:nth-child(3) {
+    margin-top: 307px;
+}
+.see .jc-sb {
+    align-items: unset;
+}
+.number {
+  margin-right: 18px;
+}
+.info a {
+    font-size: 24px;
+    display: inline-block;
+    margin-bottom: 12px;
+    color:white;
+}
+.info-title {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+.info {
+    margin-left: 108px;
+}
+footer {
+    margin-top: 122px;
+}
+.logo-info p {
+    font-size: 23px;
+}
+footer .flex {
+    flex-flow: wrap;
+}

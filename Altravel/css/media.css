@@ -1,0 +1,306 @@
+@media screen and (max-width: 1600px) {
+    .container {
+        max-width: 1290px;
+    }
+    .menu a {
+        font-size: 23px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 53px;
+    }
+    h3 {
+        font-size: 46px;
+    }
+    .header-title {
+        margin-top: 113px;
+    }
+    .header-title p {
+        margin: 15px 0px 34px;
+    }
+    /* .header-title .btn {
+        font-size: 28px;
+        padding: 15px 41px;
+    } */
+    .header-title .btn {
+        font-size: 26px;
+        padding: 13px 37px;
+    }
+    .discover {
+        padding: 53px 30px;
+        margin: 63px auto 0px;
+    }
+    .discover input, .discover select {
+        font-size: 19px;
+        padding: 16px 9px;
+    }
+    p {
+        font-size: 29px;
+    }
+    .btn_info {
+        font-size: 19px;
+        padding: 9px 39px;
+    }
+    .memory-skew a {
+        font-size: 29px;
+    }
+    .memory-dskew .flex {
+        margin:  17px 0px 26px;
+    }
+    .memory-dskew .btn_info {
+        margin-top: 39px;
+    }
+    .social img {
+        margin-right: 23px;
+        width: 29px;
+    }
+    .buss:before,
+    .town:before,
+    .date:before {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* @media screen and (max-width: 1366px) {
+    .memory-skew {
+        width: 1077px;
+    }
+} */
+@media screen and (max-width: 1366px) {
+    .memory-skew {
+        width: 78%;
+    }
+    h2 {
+        font-size: 45px;
+    }
+}
+@media screen and (max-width:1160px) {
+    .memory-skew {
+        padding: 16px 0px 46px 254px;
+    }
+    h3 {
+        font-size: 33px;
+    }
+    h2 {
+        font-size: 37px;
+    }
+    h1 {
+        font-size: 49px;
+    }
+    .info {
+        margin-left: 70px;
+    }
+    p {
+        font-size: 24px;
+    }
+    .memory-dskew .flex {
+        margin: 12px 0px 19px;
+    }
+    .memory-skew {
+        padding: 16px 0px 46px 197px;
+    }
+    .header-title .btn {
+        font-size: 22px;
+        padding: 10px 32px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .memory-skew a {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 29px;
+    }
+    p {
+        font-size: 19px;
+    }
+    .hamburger {
+        display: block;
+    }
+    .menu ul {
+        display: none;
+    }
+    .memory-skew {
+        width: 88%;
+    }
+    .discover {
+        width: 96%;
+    }
+    .menu a {
+        font-size: 19px;
+    }
+    .header-title {
+        margin-top: 61px;
+    }
+    .advant-box img {
+        margin-right: 15px;
+        width: 68px;
+    }
+    .discover {
+        padding: 26px 29px;
+    }
+    .discover input, .discover select {
+        font-size: 15px;
+        padding: 12px 9px;
+    }   
+    .btn_info {
+        font-size: 15px;
+        padding: 9px 33px;
+    }
+    .memory-dskew .btn_info {
+        margin-top: 28px;
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    footer .flex {
+        display: grid;
+        grid-template: auto / repeat(auto-fit,minmax(300px,auto));
+        grid-row-gap: 20px;
+    }
+    .info {
+        margin-left: unset;
+    }
+    .social {
+        margin-right: 40px;
+    }
+}
+@media screen and (max-width: 500px) {
+     .menu ul
+    {
+        display: none;
+    }
+      .memory-dskew,
+    .memory-skew  {
+        transform: unset;
+    }
+    .memory-skew {
+        padding: 16px 0px 46px 20px;
+        width: 100%;
+        background: unset;
+    }
+    .memory-bg {
+        background: 125px  18px / 104% 100% no-repeat url(../imgaes/memory-bg.png), #0066b7 left;
+    }
+    .hamburger-content {
+        width: 100%;
+    }
+    h1 {
+        font-size: 31px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .header-title .btn {
+        font-size: 17px;
+        padding: 8px 25px;
+    }
+    .buss:before,
+    .town:before,
+    .date:before{
+    top: 18%;
+   }
+    .discover div{
+        width: 48%;
+        /* margin-bottom: 21px; */
+    }
+    /* .discover {
+        padding: 26px 29px 5px;
+    } */
+    .logo-box img {
+        width: 39px;
+    }
+    .logo-box {
+        font-size: 18px;
+    }
+    .discover select:nth-child(1),
+    input[type="date"] {
+        margin-bottom: 11px;
+    }
+    .advant-box {
+        width: 48%;
+    }
+    .advant-box {
+        margin-bottom: 22px;
+    }
+    .line {
+        display: none;
+    }
+    .see-title {
+        width: 100%;
+    }
+    .advant-box.flex {
+        flex-flow: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .see-title:nth-child(3) {
+        margin-top: 50px;
+        text-align: right;
+    }
+    .see-title:nth-child(3) .number {
+        order: 1;
+        margin-right: unset;
+        margin-left: 18px;
+    }
+    .see {
+        padding: 77px  0px 83px;
+    }
+    footer .flex {
+        grid-template: auto / repeat(auto-fit,minmax(130px,auto));
+    }
+    .info a {
+        font-size: 16px;
+    }
+    .info-title {
+        font-size: 22px;
+    }
+    .logo-info p {
+        font-size: 18px;
+    }
+    .info-title {
+        margin-bottom: 9px;
+    }
+    .advant-box img {
+        margin-right: unset;
+    }
+    .navbar .social {
+        display: none;
+    }
+}
+@media screen and (max-width: 350px) {
+    .discover {
+        justify-content: center;
+    }
+    .discover div {
+        width: 100%;
+    }
+    .btn_info {
+        margin-top: 20px;
+    }
+    .advant-box {
+        width: 100%;
+    }
+    .memory-skew a {
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 21px;
+    }
+    h3 {
+        font-size: 21px;
+    }
+    .advant-content {
+        margin-top: 32px;
+    }
+}
