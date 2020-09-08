@@ -194,6 +194,9 @@
 body,html {
     overflow: visible !important;
 }
+.price-box:nth-child(1) {
+    margin-bottom: unset;
+} 
 .number {
     width: 61px;
     height: 61px;
