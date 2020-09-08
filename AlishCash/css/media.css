@@ -388,5 +388,61 @@ p {
 .skills h1 {
     margin-bottom: 21px;
 }
+/* obj-parallax */
+.obj-circle .layer:nth-child(2) {
+    margin-top: 0px;
+    margin-left: 64%;
 }
-
+.obj-circle .layer:nth-child(3) {
+    margin-left: 52%;
+    margin-top: 91%;
+}
+.obj-circle .layer:nth-child(4) {
+    margin-left: 79%;
+    margin-top: 94%;
+}
+.obj-circle .layer:nth-child(5) {
+    margin-left: 70%;
+    margin-top: 118%;
+}
+.obj-wave .layer:nth-child(2) {
+    display: none;
+}
+.obj-wave .layer:nth-child(1) {
+    margin-top: 139%;
+    margin-left: 62%;
+}
+.obj-triangle .layer:nth-child(4) {
+    margin-left: 62%;
+    margin-top: 91%;
+}
+.obj-triangle .layer:nth-child(5) {
+    margin-left: -42%;
+    margin-top: 36%;
+}
+.obj-square .layer:nth-child(1) {
+    margin-top: 62%;
+    margin-left: -9%;
+}
+.obj-square .layer:nth-child(2) {
+    margin-top: 36%;
+    margin-left: -4%;
+}
+.obj-square .layer:nth-child(3) {
+    margin-top: 24%;
+    margin-left: 2%;
+}
+.obj-hexagon .layer:nth-child(2) {
+    margin-top: 25%;
+    margin-left: -38%;
+}
+.obj-hexagon .layer:nth-child(3) {
+    margin-left: 53%;
+    margin-top: 97%;
+}
+.lava {
+    display: none;
+}
+}
+/* end */
+}

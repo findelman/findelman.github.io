@@ -1,5 +1,4 @@
 new fullpage('#fullpage', {
-	sectionsColor: ['yellow', 'orange', '#C0C0C0', '#ADD8E6'],
 	  anchors:['Main', 'SKILLS', 'PORTFOLIO', 'SERVICE', 'CONTACT' ],
 	  navigationTooltips: ['Главная', 'SKILLS', 'PORTFOLIO','SERVICE', 'CONTACT' ],
 	  slidesNavigation: true,
@@ -17,14 +16,6 @@ new fullpage('#fullpage', {
   
   });
 
-//parallax 
-let bg = document.querySelector('.mouse-parallax');
-window.addEventListener('mousemove', function(e) {
-    let x = e.clientX / window.innerWidth;
-    let y = e.clientY / window.innerHeight;  
-    bg.style.transform = 'translate(-' + x * 60 + 'px, -' + y * 60 + 'px)';
-});
-//end
 
 // cards parallax
 VanillaTilt.init(document.querySelectorAll(".sk-left-box"), {
@@ -100,4 +91,9 @@ $(window).scroll(function() {
   let scroll = $(window).scrollTop();
   if (scroll >= 500) { $(".progress-bar").addClass("progress-width"); }}); 
   
+//end
+
+//parallax object 
+var scene = document.querySelector('.scene');
+var parallaxInstance = new Parallax(scene);
 //end

@@ -12,10 +12,11 @@
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
-<body>
-    
+<body>    
+    <div class="lava" >
+        <img src="./images/lava2.png" alt="">
+    </div>
     <div class="preloader">
-
         <svg version="1.1" id="L7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
         viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
        <path fill="#fff" d="M31.6,3.5C5.9,13.6-6.6,42.7,3.5,68.4c10.1,25.7,39.2,38.3,64.9,28.1l-3.1-7.9c-21.3,8.4-45.4-2-53.8-23.3
@@ -67,11 +68,21 @@
             <li><a href=""></a></li>
         </ul>
     </div>
-    <div id="fullpage">
+    <div id="fullpage" class="scene">
       <section class="section fp-noscroll header" id="header">
-            <div class="mouse-parallax">
+            <div >
             </div>
             <div class="fixed">
+                <div  class="obj-parallax obj-circle">
+                    <div data-depth=".1" class="layer">                 
+                    </div>
+                    <div data-depth=".2"" class="layer">
+                           
+                    </div>
+                    <div data-depth="0.2" class="layer"></div>
+                    <div data-depth="0.05" class="layer"></div>
+                    <div data-depth="0.1" class="layer"></div>
+                  </div>
                 <div class="container">
                     <div class="navbar jc-sb wow fadeInDown
                     ">
@@ -154,6 +165,10 @@
             </div>
       </section>
       <section class="section  skills">
+        <div class="obj-parallax obj-wave">
+            <div class="layer" data-depth=".1"><img src="./images/wave.png" alt=""></div>
+            <div class="layer" data-depth=".2"><img src="./images/wave2.png" alt=""></div>
+        </div>
           <div class="container">
                 <h1 class="wow fadeIn" data-wow-delay="0.3s">SKILLS</h1>
                 <div class="skills-content flex">
@@ -226,6 +241,13 @@
           </div>
       </section>
       <section class="section portfolio">
+        <div class="obj-parallax obj-triangle">
+            <div class="layer" data-depth=".18"><img src="images/triangle3.png" alt=""></div>
+            <div class="layer" data-depth=".14"><img src="images/triangle2.png" alt=""></div>
+            <div class="layer" data-depth=".1"><img src="images/triangle.png" alt=""></div>
+            <div class="layer" data-depth=".2"><img src="images/triangle4.png" alt=""></div>
+            <div class="layer" data-depth=".1"><img src="images/triangle5.png" alt=""></div>
+        </div>
           <div class="container">
             <h1 class="wow fadeIn" data-wow-delay="0.3s"><span>PORTFOLIO</span></h1>
                 <div class="slide">
@@ -259,6 +281,11 @@
           </div>
       </section>
       <section class="section  price">
+        <div class="obj-parallax obj-square">
+            <div class="layer" data-depth=".18"><img src="images/square3.png" alt=""></div>
+            <div class="layer" data-depth=".14"><img src="images/square2.png" alt=""></div>
+            <div class="layer" data-depth=".1"><img src="images/square.png" alt=""></div>
+        </div>
         <div class="tabs-center">
             <ul class="tabs">
                 <li class="active tabs1">
@@ -481,6 +508,11 @@
           </div>
       </section>
       <section class="section contact">
+        <div class="obj-parallax obj-hexagon">
+            <div class="layer" data-depth=".3"><img src="images/hexagon.png" alt=""></div>
+            <div class="layer" data-depth=".2"><img src="images/hexagon2.png" alt=""></div>
+            <div class="layer" data-depth=".1"><img src="images/pentagon.png" alt=""></div>
+        </div>
           <div class="container">
             <h1 class="wow fadeIn" data-wow-delay="0.3s">CONTACT</h1>
             <div class="contact-panel wow fadeIn" data-wow-delay="1.5s">
