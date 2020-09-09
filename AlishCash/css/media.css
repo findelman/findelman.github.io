@@ -187,9 +187,8 @@
 .bg-frame {
     width: 100%;
 }
-.section
- {
-    overflow: hidden !important;
+#fullpage {
+    overflow: hidden;
 }
 body,html {
     overflow: visible !important;
