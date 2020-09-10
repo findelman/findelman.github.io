@@ -166,6 +166,9 @@
     transform: unset !important;
     filter: unset !important;
 }
+.header {
+    overflow: unset;
+}
 .sk-left {
     width: 100%;
 }

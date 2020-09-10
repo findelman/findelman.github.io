@@ -53,6 +53,7 @@ section {
 }
 
 .header {
+    overflow: hidden;
     position: relative;
 }
 
