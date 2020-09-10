@@ -245,7 +245,8 @@ a {
     display: flex;
     align-items: center;
     width: 95%;
-    bottom: 43px;
+    bottom: 70px;
+    /* bottom:43px; */
     -webkit-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     transform: unset;
