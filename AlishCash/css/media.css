@@ -162,7 +162,10 @@
 }
 }
 @media screen and (max-width: 900px) {
-
+.lax {
+    transform: unset !important;
+    filter: unset !important;
+}
 .sk-left {
     width: 100%;
 }

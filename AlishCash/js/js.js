@@ -11,6 +11,7 @@ new fullpage('#fullpage', {
   // autoScrolling: false, 
   scrollBar: true,
   responsiveWidth: 900,
+  scrollingSpeed: 900,
   // dragAndMove: false,
   // normalScrollElements: '.portfolio-content',  
   
@@ -43,15 +44,6 @@ let linkclose = document.querySelector('.hamburger-link');
 }
 //end
 
-//preloader
-window.onload = function () {
-  document.body.classList.add('loaded_hiding');
-  window.setTimeout(function () {
-    document.body.classList.add('loaded');
-    document.body.classList.remove('loaded_hiding');
-  }, 500);
-}
-//end
 
 
 //tabs 
@@ -75,8 +67,6 @@ for (let el of tabLinks) {
     panel[0].classList.add("active");
     });
   }
-
-
 //tabs end
 
 //scroll addClass
@@ -97,3 +87,35 @@ $(window).scroll(function() {
 var scene = document.querySelector('.scene');
 var parallaxInstance = new Parallax(scene);
 //end
+
+
+//preloader
+// window.onload = function () {
+//   document.body.classList.add('loaded_hiding');
+//   window.setTimeout(function () {
+//     document.body.classList.add('loaded');
+//     document.body.classList.remove('loaded_hiding');
+//   }, 500);
+// }
+//end
+
+
+// lax parallax + preloader
+window.onload = function() {
+  lax.setup(    ) // init
+  
+
+  const updateLax = () => {
+    lax.update(window.scrollY)
+    window.requestAnimationFrame(updateLax)
+  }
+
+  window.requestAnimationFrame(updateLax)
+
+  document.body.classList.add('loaded_hiding');
+  window.setTimeout(function () {
+    document.body.classList.add('loaded');
+    document.body.classList.remove('loaded_hiding');
+  }, 500);
+}
+//end 
