@@ -83,13 +83,13 @@ $(window).scroll(function() {
   
 //end
 
-//parallax object 
+// parallax object 
 var scene = document.querySelector('.scene');
 var parallaxInstance = new Parallax(scene);
-//end
+// end
 
 
-//preloader
+// preloader
 // window.onload = function () {
 //   document.body.classList.add('loaded_hiding');
 //   window.setTimeout(function () {
@@ -97,7 +97,7 @@ var parallaxInstance = new Parallax(scene);
 //     document.body.classList.remove('loaded_hiding');
 //   }, 500);
 // }
-//end
+// end
 
 
 // lax parallax + preloader
@@ -118,4 +118,4 @@ window.onload = function() {
     document.body.classList.remove('loaded_hiding');
   }, 500);
 }
-//end 
+// end 
