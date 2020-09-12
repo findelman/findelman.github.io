@@ -245,13 +245,12 @@ a {
     display: flex;
     align-items: center;
     width: 95%;
-    bottom: 70px;
-    /* bottom:43px; */
+    /* bottom: 70px; */
+    bottom:43px;
     -webkit-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     transform: unset;
     margin-left:unset;
-    margin-top: 70px;
 }
 .container {
     padding: 30px 10px 0px 10px;
