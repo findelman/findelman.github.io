@@ -8,7 +8,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body, html {
+body {
     background: linear-gradient(196.89deg, #4249E0 -9.31%, rgba(68, 43, 122, 0.426222) 38.22%, rgba(47, 176, 138, 0.36) 52.92%, rgba(47, 114, 176, 0.36) 65.16%, rgba(95, 135, 158, 0.36) 73.09%, rgba(157, 143, 68, 0.36) 87.97%), #3D1A61;
     cursor: default;
     overflow: hidden !important;
