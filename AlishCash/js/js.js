@@ -83,23 +83,6 @@ $(window).scroll(function() {
   
 //end
 
-// parallax object 
-var scene = document.querySelector('.scene');
-var parallaxInstance = new Parallax(scene);
-// end
-
-
-// preloader
-// window.onload = function () {
-//   document.body.classList.add('loaded_hiding');
-//   window.setTimeout(function () {
-//     document.body.classList.add('loaded');
-//     document.body.classList.remove('loaded_hiding');
-//   }, 500);
-// }
-// end
-
-
 // lax parallax + preloader
 window.onload = function() {
   lax.setup(    ) // init
@@ -119,3 +102,21 @@ window.onload = function() {
   }, 500);
 }
 // end 
+
+// parallax object 
+var scene = document.querySelector('.scene');
+var parallaxInstance = new Parallax(scene);
+// end
+
+
+// preloader
+// window.onload = function () {
+//   document.body.classList.add('loaded_hiding');
+//   window.setTimeout(function () {
+//     document.body.classList.add('loaded');
+//     document.body.classList.remove('loaded_hiding');
+//   }, 500);
+// }
+// end
+
+
