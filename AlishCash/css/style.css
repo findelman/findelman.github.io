@@ -746,7 +746,9 @@ input[type="submit"]:hover {
 .reviews-box p {
     margin: 29px 0px 22px 13px;
 }
-
+.reviews .fp-controlArrow {
+    top:90%;
+}
 .reviews-box a {
     color: #676CE1;
     float: right;
