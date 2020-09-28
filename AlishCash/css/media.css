@@ -118,8 +118,9 @@
     .sk-right .sk-right-box:nth-child(4) {  
         min-width: 432px;
     }
-    .mouse-parallax {
-        width: 108%;
+
+    .main-form {
+        margin: 55px auto 0px;
     }
 }
 @media screen and (max-width: 1290px) {
@@ -287,7 +288,6 @@ h2 {
     right: 16%;
       width: 25%;
   }
-  .mouse-parallax {width: 128%;}
   .contact {
     min-height: 747px;
 }
