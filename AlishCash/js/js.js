@@ -12,7 +12,6 @@ new fullpage('#fullpage', {
   scrollBar: true,
   responsiveWidth: 900,
   scrollingSpeed: 900,
-  normalScrollElements: '.portfolio',
   // dragAndMove: false,
   // normalScrollElements: '.portfolio-content',  
   
