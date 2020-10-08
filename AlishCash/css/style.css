@@ -198,13 +198,35 @@ span {
     margin-right: 10%;
     right: 5%;
 }
-
-.hamburger-link a:hover {
-    color: #FFA800;
-    transform: translateX(40px);
-}
+@keyframes translateX {
+    from {
+        transform: translateX(120px);
+    }
+     to{
+         opacity: 1;
+         transform:unset;
+     }
+ }
+ .hamburger.active ~ .hamburger-menu a {
+     animation: 1s translateX forwards;
+ }
+ .hamburger.active ~ .hamburger-menu li:nth-child(2) a {
+     animation: 1s translateX .2s forwards;
+ }
+ .hamburger.active ~ .hamburger-menu li:nth-child(3) a {
+     animation: 1s translateX .4s forwards;
+ }
+ .hamburger-menu a {
+     font-size: 3.5vmax;
+ }
+ .hamburger-menu a:hover {
+     color: #FFA800;
+     transform: translateX(40px);
+     margin-right: -40px;
+ }
 
 .hamburger-menu a {
+    opacity: 0;
     display: inline-block;
     transition: 500ms;
     margin-bottom: 20px;

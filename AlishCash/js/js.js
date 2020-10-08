@@ -1,7 +1,6 @@
 new fullpage('#fullpage', {
 	  anchors:['Main', 'SKILLS', 'PORTFOLIO', 'SERVICE', 'CONTACT' ],
 	  navigationTooltips: ['Главная', 'SKILLS', 'PORTFOLIO','SERVICE', 'CONTACT' ],
-	  slidesNavigation: true,
   navigation: true,
   // fitToSection: true,
   scrollOverflow:true,
@@ -12,7 +11,6 @@ new fullpage('#fullpage', {
   scrollBar: true,
   responsiveWidth: 900,
   scrollingSpeed: 900,
-  // dragAndMove: false,
   // normalScrollElements: '.portfolio-content',  
   
   });

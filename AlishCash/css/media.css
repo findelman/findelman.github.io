@@ -392,6 +392,9 @@ p {
 .reviews-box:hover {
     transform: unset;
 }
+.main-form {
+    margin: 75px auto 0px;
+}
 /* reviews.html end */
 .skills h1 {
     margin-bottom: 21px;
