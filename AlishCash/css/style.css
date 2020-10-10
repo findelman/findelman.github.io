@@ -1113,5 +1113,15 @@ ul.tabs svg, .tabs img {
 }
 
 /* end */
-
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FNkCiyxlPSLYkjb55vJUCFO%2FAlishCash-Copy%3Fnode-id%3D411%253A4&chrome=DOCUMENTATION" allowfullscreen></iframe>
+/* figma-project */
+.figma {
+    background: radial-gradient(11.22% 20.66% at 23.91% 94.54%, #1CF1FF 0%, rgba(44, 170, 209, 0) 100%), radial-gradient(13.38% 18.9% at 42.24% 47.65%, #3DF3F3 0%, rgba(73, 118, 232, 0) 100%), radial-gradient(20.13% 38.39% at 63.41% 50.05%, #5383CA 0%, rgba(149, 71, 176, 0) 100%), radial-gradient(9.95% 18.96% at 18.7% 38.66%, #AB53CA 0%, rgba(149, 71, 176, 0) 100%), linear-gradient(137.16deg, #343C7C 31.62%, rgba(32, 42, 131, 0.97) 98.95%);
+}
+.iframe-box {
+    width: 46%;
+    margin: 20px;
+}
+.figma-content iframe {
+    width: 100%;
+}
+/* figma-project end */
