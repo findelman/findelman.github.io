@@ -187,6 +187,13 @@
 .sk-right {
     margin-top: 20px;
 }
+.logo-box {
+    font-size: 40px;
+}
+.phone {
+    font-size: 2.4vmax;
+    margin-right: 100px;
+}
 .price-box {
     margin: 20px;
     width: 88%;
