@@ -52,6 +52,7 @@
            margin-bottom: 20px;
        }
        .flex {
+            margin-right: unset;
            -ms-flex-flow: wrap;
                flex-flow: wrap;
        }
