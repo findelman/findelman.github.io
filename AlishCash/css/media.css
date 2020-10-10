@@ -396,6 +396,12 @@ p {
     margin: 75px auto 0px;
 }
 /* reviews.html end */
+/* figma-project */
+.iframe-box {
+    width: 100%;
+}
+/* figma-project end */
+
 .skills h1 {
     margin-bottom: 21px;
 }
