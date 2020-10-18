@@ -19,17 +19,20 @@
         width: 90px;
         height: 76px;
     }
-    .sk-left {
-        width: 31%;
-    }
     .sk-left-box { 
-        padding: 16px 49px 36px;
+        padding: 16px 49px 51px;
     }
     .sk-left div:nth-child(2) .sk-left-box {
         margin-top: 38px;
     }
     .sk-left-box h4 {
-        margin-top: 19px;
+        margin-top: 25px;
+    }
+    .sk-f-arrow {
+        top:24%;
+    }
+    .sk-r-arrow  {
+        top: 54%;
     }
     .progress-bar {
         height: 24px;
