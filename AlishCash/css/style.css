@@ -991,19 +991,13 @@ ul.tabs svg, .tabs img {
 }
 
 .obj-circle .layer {
+    width: 100%;
+}
+.obj-circle .layer div {
     border-radius: 50%;
 }
-
-.obj-circle .layer:nth-child(1) {
-    width: 359px;
-    height: 359px;
-    background: linear-gradient(198.34deg, #3E70E7 4.2%, #402372 87.55%);
-    box-shadow: 0px 4px 32px #395EE3, inset 12px 18px 18px #374DBD;
-    margin-top: 350px;
-    margin-left: -180px;
-}
-
-.obj-circle .layer:nth-child(2) {
+.obj-circle .layer:nth-child(1)  div {
+    animation: move 4s infinite alternate linear  ;
     margin-top: 0px;
     margin-left: 96%;
     width: 281px;
@@ -1011,41 +1005,69 @@ ul.tabs svg, .tabs img {
     background: linear-gradient(214.32deg, #4628E9 3.47%, #71159A 84.55%), #5956DC;
     box-shadow: -13px 19px 39px rgba(219, 55, 245, 0.88), inset 26px -32px 31px rgba(181, 118, 99, 0.58);
 }
-
-.obj-circle .layer:nth-child(3) {
+.obj-circle .layer:nth-child(2) div{
+    animation: newmove 4s infinite alternate linear;
+    width: 359px;
+    height: 359px;
+    background: linear-gradient(198.34deg, #3E70E7 4.2%, #402372 87.55%);
+    box-shadow: 0px 4px 32px #395EE3, inset 12px 18px 18px #374DBD;
+    margin-top: 350px;
+    margin-left: -180px;
+    position: relative;
+}
+.obj-circle .layer:nth-child(3) div{
+    animation: move 5s infinite alternate-reverse linear .4s;
     margin-left: 80%;
     margin-top: 30%;
     width: 89px;
     height: 89px;
     background: linear-gradient(198.34deg, #3E70E7 4.2%, #402372 87.55%);
     box-shadow: 0px 4px 32px #395EE3, inset 12px 18px 18px #374DBD;
+    position:relative;
 }
-
-.obj-circle .layer:nth-child(4) {
+.obj-circle .layer:nth-child(4) div{
     margin-left: 89%;
     margin-top: 24%;
     width: 62px;
     height: 62px;
     background: linear-gradient(202.69deg, #601CB8 -26.75%, #8A3D87 83.49%);
     box-shadow: 0px 4px 32px #395EE3, inset 12px 18px 18px #374DBD;
+    animation: move 4s infinite alternate linear;
 }
 
-.obj-circle .layer:nth-child(5) {
+.obj-circle .layer:nth-child(5) div{
     margin-left: 87%;
     margin-top: 34%;
     width: 105px;
     height: 105px;
     background: linear-gradient(198.34deg, #3E70E7 4.2%, #402372 87.55%);
     box-shadow: 0px 4px 32px #395EE3, inset 12px 18px 18px #374DBD;
+    animation:  move 3s infinite linear;
 }
-.obj-circle .layer:nth-child(6) {
+.obj-circle .layer:nth-child(6) div {
     width: 443px;
-height: 444px;
-background: linear-gradient(180deg, #4474F0 0%, rgba(68, 85, 240, 0) 100%);
-border-radius: 309px;
-margin-left: 35%;
-margin-top: 13%;
+    height: 444px;
+    background: linear-gradient(180deg, #4474F0 0%, rgba(68, 85, 240, 0) 100%);
+    border-radius: 309px;
+    margin-left: 35%;
+    margin-top: 13%;
+    animation: rotate  4s infinite  linear;
+}
+@keyframes rotate {
+    from {}
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes move {
+    20% {
+        transform: translate(10px,10px);
+    }
+    40% {
+        transform: translate(10px,20px) rotate(40deg);
+    }
 } 
+
 
 .obj-wave .layer:nth-child(1) {
     margin-left: 66%;
@@ -1054,6 +1076,29 @@ margin-top: 13%;
 .obj-wave .layer:nth-child(2) {
     margin-left: 77%;
     margin-top: 25%;
+}
+.obj-wave .layer:nth-child(1) img {
+    animation: 12s swimming infinite alternate linear;
+}
+.obj-wave .layer:nth-child(2) img {
+    animation: 10s swimming alternate-reverse infinite  linear ;
+}
+@keyframes swimming {
+    20% {
+        transform: rotate(15deg) rotateY(20deg);
+    }
+    40% {
+        transform: rotate(5deg) rotateY(10deg);
+    }
+    60% {
+        transform: rotate(0deg) rotateY(0deg);
+    }
+    80% {
+        transform: rotate(-5deg) rotateY(-10deg);
+    }
+    100% {
+        transform: rotate(-15deg) rotateY(-20deg);
+    }
 }
 
 .obj-triangle .layer:nth-child(1) {
