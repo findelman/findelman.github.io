@@ -1006,7 +1006,7 @@ ul.tabs svg, .tabs img {
     box-shadow: -13px 19px 39px rgba(219, 55, 245, 0.88), inset 26px -32px 31px rgba(181, 118, 99, 0.58);
 }
 .obj-circle .layer:nth-child(2) div{
-    animation: newmove 4s infinite alternate linear;
+    animation: move 4s infinite alternate linear;
     width: 359px;
     height: 359px;
     background: linear-gradient(198.34deg, #3E70E7 4.2%, #402372 87.55%);
