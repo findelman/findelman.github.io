@@ -997,7 +997,7 @@ ul.tabs svg, .tabs img {
     border-radius: 50%;
 }
 .obj-circle .layer:nth-child(1)  div {
-    animation: move 4s infinite alternate linear  ;
+    animation: triangle-move 4s infinite alternate linear  ;
     margin-top: 0px;
     margin-left: 96%;
     width: 281px;
@@ -1105,6 +1105,35 @@ ul.tabs svg, .tabs img {
     margin-left: 68%;
     margin-top: 7%;
 }
+.obj-triangle .layer:nth-child(1) img {
+    animation: 8s triangle-move infinite alternate linear;
+}
+.obj-triangle .layer:nth-child(2) img {
+    animation: 8s triangle-move infinite alternate-reverse linear;
+}
+.obj-triangle .layer:nth-child(3) img {
+    animation: 8s triangle-move infinite alternate linear 2s;
+}
+.obj-triangle .layer:nth-child(4) img {
+    animation: 12s triangle-move infinite alternate-reverse linear;
+}
+.obj-triangle .layer:nth-child(5) img {
+    animation: 12s triangle-move infinite alternate linear;
+}
+@keyframes triangle-move {
+    20% {
+        transform: translate(-10px,10px);
+    }
+    40% {
+        transform: translate(-15px,5px);
+    }
+    60% {
+        transform: translate(-5px,15px);
+    }
+    80% {
+        transform: translate(0px,0px);
+    }
+}
 
 .obj-triangle .layer:nth-child(2) {
     margin-left: 69%;
@@ -1130,6 +1159,23 @@ ul.tabs svg, .tabs img {
     margin-top: 30%;
     margin-left: 15%;
 }
+.obj-square .layer:nth-child(1) img {
+    animation: 10s square-move infinite alternate ;
+}
+.obj-square .layer:nth-child(2) img {
+    animation: 10s square-move infinite alternate-reverse ;
+}
+.obj-square .layer:nth-child(3) img {
+    animation: 10s square-move infinite alternate  1s;
+}
+@keyframes square-move {
+    0% {
+        transform: translateY(50px) rotate(15deg) ;
+    }
+    100% {
+        transform: translateY(-50px);
+    }
+}
 
 .obj-square .layer:nth-child(2) {
     margin-top: 27%;
@@ -1153,7 +1199,15 @@ ul.tabs svg, .tabs img {
     margin-left: 70%;
     margin-top: 30%;
 }
-
+.obj-hexagon .layer:nth-child(1) img {
+    animation: 4s triangle-move infinite alternate; 
+}
+.obj-hexagon .layer:nth-child(2) img {
+    animation: 4s triangle-move infinite alternate-reverse; 
+}
+.obj-hexagon .layer:nth-child(3) img {
+    animation: 5s triangle-move infinite alternate .4s; 
+}
 /* end */
 /* figma-project */
 .figma {
