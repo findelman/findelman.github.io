@@ -1038,6 +1038,14 @@ ul.tabs svg, .tabs img {
     background: linear-gradient(198.34deg, #3E70E7 4.2%, #402372 87.55%);
     box-shadow: 0px 4px 32px #395EE3, inset 12px 18px 18px #374DBD;
 }
+.obj-circle .layer:nth-child(6) {
+    width: 443px;
+height: 444px;
+background: linear-gradient(180deg, #4474F0 0%, rgba(68, 85, 240, 0) 100%);
+border-radius: 309px;
+margin-left: 35%;
+margin-top: 13%;
+} 
 
 .obj-wave .layer:nth-child(1) {
     margin-left: 66%;
@@ -1099,17 +1107,6 @@ ul.tabs svg, .tabs img {
 .obj-hexagon .layer:nth-child(3) {
     margin-left: 70%;
     margin-top: 30%;
-}
-
-.lava {
-    height: 463%;
-    position: absolute;
-    left: 30%;
-}
-
-.lava img {
-    width: 100%;
-    height: 100%;
 }
 
 /* end */

@@ -51,8 +51,14 @@
         font-size: 1.6vmax;
     }
     .price-box {
+        margin: 33px;
         width: 44%;
     }
+    .obj-parallax img{
+        transform: scale(1.2);
+    }
+    .obj-wave .layer:nth-child(1) {
+        margin-top: 3%;}
     .price-box p {
         font-size: 2.29vmax;
         font-weight: 100;
@@ -432,6 +438,9 @@ p {
 .obj-circle .layer:nth-child(5) {
     margin-left: 70%;
     margin-top: 118%;
+}
+.obj-circle .layer:nth-child(6) {
+    display: none !important;
 }
 .obj-wave .layer:nth-child(2) {
     display: none;
