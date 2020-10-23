@@ -89,6 +89,18 @@
     .progress-bar div {
         height: 2vh;
     }
+    .phone-frame iframe {
+        width: 146%;
+        height: 137%;
+        position: absolute;
+        transform: scale(0.6);}
+    .bg-frame .iframe-portfolio {
+        height: 77.6%;
+        width: 84.9%;
+    }
+    .bg-frame iframe {
+        transform: scale(0.54);
+    }
 }
 @media screen and (max-width: 1130px), screen and (max-height: 750px) {
     .progress-bar {
@@ -479,6 +491,16 @@ p {
 }
 .lava {
     display: none;
+}
+.iframe-portfolio {
+    height: 162.6%;
+    width: 176.4%;
+}
+.bg-frame iframe {
+    transform: scale(0.26);
+}
+.bg-frame img, .phone-frame img {
+    width: 100%;
 }
 }
 /* end */

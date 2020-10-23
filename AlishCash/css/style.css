@@ -453,13 +453,36 @@ span {
 .bg-frame {
     width: 50%;
     overflow: hidden;
+    position: relative;
 }
 
 .bg-frame img, .phone-frame img {
     width: 100%;
 }
-
+.iframe-portfolio{
+    top: 7%;
+    position: absolute;
+    height: 94.6%;
+    width: 104.4%;
+    left: 4%;
+}
+.bg-frame iframe {
+    width: 200%;
+    height: 200%;
+    transform: scale(0.44);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+.phone-frame iframe {
+    width: 177%;
+    height: 166%;
+    position: absolute;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    top: 4%;
+}
 .phone-frame {
+    position: relative;
     margin-left: 70px;
     margin-top: 15px;
     width: 16%;
