@@ -1310,7 +1310,7 @@ ul.tabs svg, .tabs img {
             animation: 8s triangle-move infinite alternate linear 2s;
 }
 .obj-triangle .layer:nth-child(4) img {
-    animation: 12s triangle-move infinite alternate-reverse linear;
+    animation: 9s triangle-move infinite alternate-reverse linear;
 }
 .obj-triangle .layer:nth-child(5) img {
     -webkit-animation: 12s triangle-move infinite alternate linear;
