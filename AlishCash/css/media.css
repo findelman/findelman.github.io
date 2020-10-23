@@ -55,7 +55,9 @@
         width: 44%;
     }
     .obj-parallax img{
-        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+                transform: scale(1.2);
     }
     .obj-wave .layer:nth-child(1) {
         margin-top: 3%;}
@@ -93,13 +95,17 @@
         width: 146%;
         height: 137%;
         position: absolute;
-        transform: scale(0.6);}
+        -webkit-transform: scale(0.6);
+            -ms-transform: scale(0.6);
+                transform: scale(0.6);}
     .bg-frame .iframe-portfolio {
         height: 77.6%;
         width: 84.9%;
     }
     .bg-frame iframe {
-        transform: scale(0.54);
+        -webkit-transform: scale(0.54);
+            -ms-transform: scale(0.54);
+                transform: scale(0.54);
     }
 }
 @media screen and (max-width: 1130px), screen and (max-height: 750px) {
@@ -188,8 +194,11 @@
 }
 @media screen and (max-width: 900px) {
 .lax {
-    transform: unset !important;
-    filter: unset !important;
+    -webkit-transform: unset !important;
+        -ms-transform: unset !important;
+            transform: unset !important;
+    -webkit-filter: unset !important;
+            filter: unset !important;
 }
 .header {
     overflow: unset;
@@ -273,9 +282,16 @@ a {
     margin-bottom: 40px;
 }
 .contact-panel {
-    flex-flow: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 95%;
     /* bottom: 70px; */
     bottom:43px;
@@ -376,7 +392,8 @@ font-size: 5.44vw;
   display: none;
 }
 .sk-right-box.flex {
-  flex-flow: nowrap;
+  -ms-flex-flow: nowrap;
+      flex-flow: nowrap;
 }
 /* .sk-right {
   width: 100%;
@@ -421,7 +438,9 @@ p {
     margin-top: 29px;
 }
 .reviews-box:hover {
-    transform: unset;
+    -webkit-transform: unset;
+        -ms-transform: unset;
+            transform: unset;
 }
 .main-form {
     margin: 75px auto 0px;
@@ -500,12 +519,13 @@ p {
     width: 176.4%;
 }
 .bg-frame iframe {
-    transform: scale(0.26);
+    -webkit-transform: scale(0.26);
+        -ms-transform: scale(0.26);
+            transform: scale(0.26);
 }
 .bg-frame img, .phone-frame img {
     width: 100%;
 }
 }
 /* end */
-
 
