@@ -182,6 +182,9 @@
 .price-box:nth-child(3) {
     margin-top: unset;
 }
+.iframe-portfolio {
+    width: 95.4%;
+}
 }
 @media screen and (max-width: 900px) {
 .lax {
