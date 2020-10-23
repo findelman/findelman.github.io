@@ -244,7 +244,8 @@ transition: 500ms;
     align-items: flex-start;
 }
 .memory-skew {
-    padding: 35px 0px 75px 254px;
+    /* padding: 35px 0px 75px 254px; */
+    padding: 35px 0px 69px 217px;
     transform: skewX(30deg) translateX(-170px);
     background: #3D52BD;
     width: 72%;
