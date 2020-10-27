@@ -3,6 +3,7 @@
         display: none;
     }
 }
+
 @media screen and (max-width: 500px) {
     h1 {
         font-size: 30px;
@@ -21,7 +22,7 @@
     h3 {
         font-size: 17px;
     }
-    .header-question_img img{
+    .header-question_img img {
         height: 151px;
     }
     .header-question_box:nth-child(1) img {
@@ -60,7 +61,93 @@
     .bar-graph_prec p:before {
         width: 81%;
     }
-    .bar-graph-box{
+    .bar-graph-box {
         font-size: 18px;
+    }
+    .tabcontent {
+        height: 978px;
+    }
+    .circle-graph-content {
+        padding: unset;
+        width: 100%;
+        height: 67%;
+        margin-top: 72px;
+    }
+    .circle-graph_text.jc-sb {
+        justify-content: unset;
+        flex-direction: column;
+    }
+    .circle-graph_title:nth-child(2) p:nth-child(1), .circle-graph_title:nth-child(2) p:nth-child(2) {
+        margin-top: unset;
+    }
+    .circle-graph_title p:before {
+        display: none;
+    }
+    .circle-graph_title p {
+        color: white;
+        width: fit-content;
+        border-radius: 4px;
+        margin: 5px;
+        padding: 5px;
+        background: #AEA9DF;
+        border-bottom: unset;
+        width: 100%;
+    }
+    .circle-graph_title:nth-child(2) p:nth-child(1) {
+        width: 40%;
+        background: #D4CFFF;
+    }
+    .circle-graph_title:nth-child(2) p:nth-child(2) {
+        width: 60%;
+        background: #C7C1FF;
+    }
+    .accordion-title {
+        padding: 20px 33px;
+    }
+    .diseases-content li {
+        width: 123px;
+        margin-right: 81px;
+        margin-bottom: 25px;
+    }
+    a {
+        font-size: 18px;
+    }
+    .diseases-content li:before {
+        width: 10px;
+        height: 9px;
+        left: -17%;
+    }
+    .diseases {
+        padding-top: 91px;
+    }
+    .accordion-title svg {
+        width: 17px;
+        right: 33px;
+        top: 23px;
+    }
+    .btn a {
+        font-size: 16px;
+    }
+    .contact-form,
+    .contact-info {
+        width: 100%;
+    }
+    .contact-content {
+        margin-top: 26px;
+    }
+    .contact-info{
+        margin-bottom: 26px;
+    }
+    .contact-items a {
+        font-size: 23px;
+    }
+    ::placeholder {
+        font-size: 16px;
+    }
+    .contact-form input, .contact-form textarea {
+        padding: 6px 20px;
+    }
+    .contact-form textarea {
+        margin-top: 26px;
     }
 }
