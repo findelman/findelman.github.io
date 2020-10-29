@@ -153,9 +153,13 @@
                     </div>
                     <div class="main-title wow fadeInLeft" data-wow-delay=.8s>
                         <h1>Меня зовут <span>Алишер</span></h1>
-                        <h1>Я занимаюсь <span>Web</span> - разработкой</h1>
+                        <div class="flex"><h1>Я занимаюсь <span>Web</span> -<span style="opacity:0;"> разработкой</span></h1>   <ul class="fade-text">  <li class="fade-animation">
+                          <h1>разработкой</h1>
+                          <h1>дизайном</h1>
+                        </li>
+                        </ul></div>
                         <h3>и это сайт портфолио обо мне</h3>
-                    </div>
+                        </div>
                     <div class="bottom-nav" data-wow-delay=2s>
                         <a href="#SKILLS" class="wow fadeIn" data-wow-delay=2s>
                             <svg width="61" height="68" viewBox="0 0 76 74" fill="none"
@@ -652,9 +656,18 @@
                     Напишите мне о своем проекте
                     <p>Я отвечу вам при первой же возможности</p>
                 </div>
-                <form action="" class="main-form wow fadeInUp" data-wow-delay=".8s">
-                    <input type="text" placeholder="Имя" required><input type="email" placeholder="Email" required>
-                    <textarea name="" id="" cols="91" rows="3" placeholder="Сообщение" required></textarea>
+                <form action="" class="jc-sb main-form wow fadeInUp" data-wow-delay=".8s">
+                    <div class="form-box">
+                        <input id="form-name" type="text"  required>
+                        <label for="form-name">Имя</label>
+                    </div>
+                    <div class="form-box">
+                        <input id="form-email"  type="email"  required>
+                        <label for="form-email">Email</label>
+                    </div>
+                    <div class="form-box">
+                        <textarea placeholder="Сообщение" name="" id="" cols="91" rows="3"  required></textarea>
+                    </div>
                     <input type="submit" value="ОТПРАВИТЬ">
                 </form>
             </div>

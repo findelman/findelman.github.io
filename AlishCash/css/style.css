@@ -283,15 +283,41 @@ span {
 }
 
 .main-title {
-    text-align: center;
-    margin-top: 190px;
-}
-
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+      text-align: center;
+      margin-top: 190px;
+  }
+  .fade-text {
+    height: 100%;
+    overflow:hidden;
+    text-align:left;
+    position: absolute;
+    right: 0;  
+  }
+  .main-title .flex {
+      position: relative;
+  }
+  .main-title .flex h1 {
+      font-weight: 400;
+  }
+  .fade-animation {
+    animation: 4s fade-text infinite alternate 1s;
+  }
+  @keyframes fade-text {
+    10%,70% {
+      transform: translateY(0);
+    }
+    70%,100% {
+     transform: translateY(-50%);
+    }
+  }
 .main-title h1:nth-child(2) {
     font-weight: 400;
 }
 
-.main-title h1:nth-child(2) span {
+.main-title .flex span {
     color: #00A3FF;
 }
 
@@ -723,17 +749,36 @@ span {
     outline: none;
     background: none;
     border: none;
-    width: 40%;
+    width: 100%;
     border-bottom: 6px solid #6BC1FF;
 }
-
-.main-form input:nth-of-type(1) {
-    margin-right: 17%;
+.form-box:nth-child(1),
+.form-box:nth-child(2) {
+    width: 40%;
+}
+.form-box label {
+    transition: 500ms;
+    position: absolute;
+    bottom: 12%;
+    font-size: 25px;
+}
+.form-box {
+    position: relative;
+    display: flex;
+    flex-flow:column;
 }
 
+.main-form .form-box:nth-child(3) label {
+    bottom: unset;
+    top: 12%;
+}
+label.focused  {
+    font-size: 20px;
+    transform: translateY(-200%);
+}
 .main-form textarea {
     margin-top: 35px;
-    max-width: 97%;
+    width: 100%;
     resize: none;
     font-size: 30px;
     color: white;

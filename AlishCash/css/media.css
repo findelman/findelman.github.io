@@ -77,6 +77,13 @@
     ::-webkit-input-placeholder {
         font-size: 1.8vmax;
     }
+    .form-box label {
+        font-size: 1.8vmax;
+    }
+       label.focused {
+        transform: translateY(-120%);
+        font-size: 1.4vmax;
+    }
     .main-form textarea {
         max-width: 818px;
         height: 165px;
@@ -192,7 +199,18 @@
     width: 95.4%;
 }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px)
+ {
+.fade-text {
+    width: fit-content;
+    height: 50%;
+    overflow: hidden;
+    text-align: left;
+    position: absolute;
+    right: 0;
+    left: 50%;
+    transform: translate(-50%,91%);
+}
 .lax {
     -webkit-transform: unset !important;
         -ms-transform: unset !important;

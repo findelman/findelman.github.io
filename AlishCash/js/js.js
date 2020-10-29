@@ -23,6 +23,17 @@ VanillaTilt.init(document.querySelectorAll(".sk-left-box"), {
   perspective:    500, 
 });
 //end
+//  label function 
+$('input').on('focusin', function() {
+  $(this).parent().find('label').addClass('focused');
+});
+
+$('input').on('focusout', function() {
+  if (!this.value) { 
+    $(this).parent().find('label').removeClass('focused');
+  }
+});
+//  label function end
 new WOW().init();
 // hamburger 
 let hamburger = document.querySelector('.hamburger');
