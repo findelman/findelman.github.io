@@ -303,10 +303,10 @@ span {
       font-weight: 400;
   }
   .fade-animation {
-    animation: 4s fade-text infinite alternate 1s;
+    animation: 3s fade-text infinite alternate 1s;
   }
   @keyframes fade-text {
-    10%,70% {
+    10%,50% {
       transform: translateY(0);
     }
     70%,100% {
