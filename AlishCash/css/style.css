@@ -522,6 +522,9 @@ span {
 .bg-frame img, .phone-frame img {
     width: 100%;
 }
+iframe {
+    background: white;
+}
 .iframe-portfolio{
     top: 7%;
     position: absolute;
