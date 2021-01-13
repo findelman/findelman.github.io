@@ -1,3 +1,12 @@
+@media screen and (min-height: 950px) {
+    .header-title {
+        padding-top: 296px;
+    }
+    .header-question {
+        margin-top: 129px;
+    }
+}
+
 @media screen and (max-width: 1058px) {
     .tabcontent:before {
         display: none;
@@ -150,4 +159,18 @@
     .contact-form textarea {
         margin-top: 26px;
     }
-}
+    .contact-soical svg{
+        width: 30px;
+        height: 30px;
+    }
+    .contact-soical a {
+        width: 50px;
+        height: 50px;
+    }
+    .default-title {
+        mix-blend-mode: screen;
+    }   
+    .circle-graph img {
+        margin-top: 45px;
+    }
+} 
