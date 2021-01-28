@@ -167,7 +167,7 @@
         width: 50px;
         height: 50px;
     }
-    .default-title {
+    .start .default-title {
         mix-blend-mode: screen;
     }   
     .circle-graph img {

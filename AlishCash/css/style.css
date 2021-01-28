@@ -770,7 +770,9 @@ iframe {
     display: flex;
     flex-flow:column;
 }
-
+.form-box label {
+    cursor: initial;
+}
 .main-form .form-box:nth-child(3) label {
     bottom: unset;
     top: 12%;
