@@ -64,7 +64,11 @@
     }
     .sk-left-box h3 {
         font-size: 2.5vmax;
-    }  
+    }
+    .close {
+        transform: scale(1.2);
+        right: 103px;
+    }
     .price-box a {
         font-size: 1.6vmax;
     }
