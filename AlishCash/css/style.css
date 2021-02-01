@@ -822,11 +822,10 @@ input[type="submit"]:hover {
 }
 
 .preloader {
+    flex-direction: column;
     width: 100%;
     height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -835,24 +834,110 @@ input[type="submit"]:hover {
             align-items: center;
     position: fixed;
     z-index: 20;
-    background: #e0e0e0;
+    background: white;
 }
+.preloader p {
+    color:black;
+    margin-top: 180px;
+    animation: opacity_preloader 1.2s infinite alternate linear;
+    opacity: 0;
 
-.preloader svg {
-    width: 100px;
 }
-
+@keyframes opacity_preloader {
+    from{   }
+    to{ opacity: 1;}
+}
 .loaded_hiding .preloader {
     -webkit-transition: 0.3s opacity;
     -o-transition: 0.3s opacity;
     transition: 0.3s opacity;
     opacity: 0;
 }
-
 .loaded .preloader {
     display: none;
 }
-
+/* rubiks */
+.center {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position:relative;
+    transform-style:preserve-3d;
+    transform: rotateX(45deg) rotateY(21deg);
+    
+  }
+.rubiks .column {
+    display: flex;
+  transform-style: preserve-3d;
+  position:absolute;
+}
+.rubiks .box {
+  position:relative;
+  width: 4em;
+  height: 4em;
+  transition:800ms;
+}
+.rubiks .flex {
+  display: flex;
+  transition:800ms;
+}
+.rubiks .side {
+  position:absolute;
+  background: #000;
+  width: 4em;
+  height: 4em;
+  border: 2px solid white;
+}
+.side:nth-child(1) {
+transform: translateZ(2em);
+}
+.side:nth-child(2) {
+    transform: rotateX(-90deg) translateZ(2em);
+} 
+.side:nth-child(3) {
+  transform: rotateX(90deg) translateZ(2em);
+}
+.side:nth-child(4) {
+  transform: rotateY(90deg) translateZ(2em);
+}
+.side:nth-child(5) {
+  transform: rotateY(-90deg) translateZ(2em);
+}
+.side:nth-child(6) {
+  transform:  translateZ(-2em) rotateY(180deg);
+}
+.rubiks-two {
+       animation: rubiks-two 4s infinite alternate ;
+  transform: translateZ(4em);
+}
+.column:nth-child(1) {
+     animation: rubiks-first 4s infinite alternate .2s;
+}
+.rubiks-three {
+         animation: rubiks-three 4s infinite alternate .4s;
+  transform: translateZ(-4em);
+}
+@keyframes rubiks-first {
+  from{}
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rubiks-two {
+  from{
+  }
+  to {
+    transform: translateZ(4em) rotate(360deg);
+  }
+}
+@keyframes rubiks-three {
+  from{
+  }
+  to {
+    transform: translateZ(-4em) rotate(360deg);
+  }
+}
+/* rubkis end */
 /* reviews.html  */
 
 .reviews {

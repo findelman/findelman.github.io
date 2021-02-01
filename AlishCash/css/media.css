@@ -569,6 +569,12 @@ p {
 .bg-frame img, .phone-frame img {
     width: 100%;
 }
+.center {
+    zoom: 0.6;
+}
+.preloader p {
+    margin-top: 138px;
+}
 }
 /* end */
 
