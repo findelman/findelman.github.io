@@ -7,6 +7,12 @@
     }
 }
 
+
+@media screen and (max-width: 1500px) {
+    .container {
+        padding: 0px 20px;
+    }
+}
 @media screen and (max-width: 1058px) {
     .tabcontent:before {
         display: none;
@@ -24,6 +30,9 @@
     }
     h2 {
         font-size: 22px;
+    }
+    .container {
+        padding: unset;
     }
     .header-img img {
         margin-top: 41px;
