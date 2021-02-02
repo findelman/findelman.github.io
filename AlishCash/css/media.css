@@ -225,8 +225,26 @@
     margin-top: unset;
 }
 .iframe-portfolio {
-    width: 95.4%;
+    /* width: 95.4%; */
+    width: 123.4%;
 }
+.bg-frame iframe {
+    -webkit-transform: scale(0.34);
+    -ms-transform: scale(0.34);
+    transform: scale(0.34);
+    height: 263%;}
+    .phone-frame iframe {
+         width: 175%;
+    height: 199%;
+
+    -webkit-transform: scale(0.391);
+    -ms-transform: scale(0.391);
+    transform: scale(0.391);
+
+    }
+    .bg-frame {
+        width: 54%;
+    }
 }
 @media screen and (max-width: 900px)
  {
