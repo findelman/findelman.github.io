@@ -226,7 +226,7 @@
 }
 .iframe-portfolio {
     /* width: 95.4%; */
-    width: 123.4%;
+     width: 123.4%;
 }
 .bg-frame iframe {
     -webkit-transform: scale(0.34);
@@ -244,10 +244,11 @@
     }
     .bg-frame {
         width: 54%;
-    }
+    } 
 }
 @media screen and (max-width: 900px)
  {
+
 .fade-text {
     width: fit-content;
     height: 50%;
@@ -584,6 +585,8 @@ p {
     width: 176.4%;
 }
 .bg-frame iframe {
+    width: 200%;
+    height: 200%;
     -webkit-transform: scale(0.26);
         -ms-transform: scale(0.26);
             transform: scale(0.26);
