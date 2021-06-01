@@ -505,6 +505,9 @@
     .programs-box:nth-child(4).open {
         max-height: 700px;
     }
+    .programs-box:nth-child(4) {
+        max-height: 262px;
+    }
     .navigation-buttons a:hover:nth-child(1) ~ .naviagtion-buttons-hidden {
         transform: translateY(-110%);
     }
