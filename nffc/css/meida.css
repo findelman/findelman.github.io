@@ -527,3 +527,15 @@
         font-size: 11px;
     }
 }
+@media screen and (max-width: 330px) and (max-height: 590px) {
+    .hamburger-menu .navigation-buttons {
+        padding: 0 10px;        
+    }
+    .hamburger-social svg {
+        width: 20px;
+        height: 20px;
+    }
+    .hamburger-navigation {
+        margin-top: unset;
+    }
+}
