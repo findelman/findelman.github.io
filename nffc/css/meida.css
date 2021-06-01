@@ -352,9 +352,11 @@
     }
     .programs-box,
     .about-box {
-        width: 100%;
+     width: 100%;
     }
-
+    .programs-box {
+        max-height: 339px;
+    }
     .specials {
         padding: 30px 20px;
     }
@@ -518,4 +520,10 @@
 @media screen and (max-width: 375px) {
     .hamburger-menu .navigation-buttons a {
     padding: 10px 11px;}
+    .header-title h1 {
+        font-size: 27px;
+    }
+    .btn {
+        font-size: 11px;
+    }
 }

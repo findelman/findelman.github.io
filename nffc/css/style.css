@@ -163,9 +163,6 @@ header:before {
     border-radius: 61px;
     font-size: 19px;
 }
-.hamburger-menu .navigation-buttons a:nth-child(2) {
-    margin-top: unset;
-}
 .hamburger-menu .navigation-buttons a {
     padding: 10px 21px;
     border-radius: 10px;
@@ -968,6 +965,7 @@ position: absolute;
     gap:unset;
 }
 .hamburger-menu .navigation-buttons {
+    flex-flow: column;
     padding: 13px 10px;
     display: flex;
     justify-content: space-between;
