@@ -1,0 +1,521 @@
+@media screen and (max-width: 1600px) {
+    header,.background {
+        margin-left: 328px;
+    }
+    .navigation {
+        width: 328px;
+    }
+    .navigation-links {
+        margin-top: 28px;
+    }
+    .navigation-links a {
+        font-size: 24px;
+        padding: 20px 46px;
+    }
+    .navigation-social svg {
+        width: 24px;
+        height: 24px;
+    }
+    .navigation-social a {
+        margin: 12px 0px;
+        padding: 13px 0px;
+    }
+    .navigation-social {
+        margin-top: 16px;
+    }
+    .navigation-buttons {
+        margin-top: 10px;
+        padding: 10px 32px;
+    }
+    .navigation-buttons a {
+        font-size: 16px;
+        padding: 10px 26px;
+    }
+    .navigation-buttons img {
+        width: 21px;
+        height: 26px;
+        margin-right: 20px;
+    }
+    .navigation-buttons a:nth-child(2) {
+        margin-top: 17px;
+    }
+    .logo img {
+        width: 116px;
+        height: 116px;
+    }
+    .logo h3 {
+        font-size: 29px;
+    }
+    .header-title h1 {
+        font-size: 48px;
+    }
+    .header-title p {
+        font-size: 24px;
+        margin: 24px 0px 60px;
+        width: 29%;
+    }
+    .header-title p:nth-child(1) {
+        margin-right: 82px;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 21px 33px;
+    }
+    .container {
+        max-width: 1102px;
+    }
+    .programs-box {
+        padding: 32px 31px 0px 31px;
+        /* max-height: 200px;  default*/
+        max-height: 197px;
+    }
+    .programs-box:nth-child(4) {
+        max-height: 268px;
+    }
+    .programs-box h3 {
+        font-size: 25px;
+    }
+    .programs-box p:nth-child(2) {
+        margin: 14px 0px;
+    }
+    .programs-box p {
+        font-size: 16px;
+    }
+    .prog-btn {
+        width: 161px;
+        height: 49px;
+        margin-left: -31px;
+    }
+    .trainer-box-img {
+        height: 302px;
+    }
+    .trainer-box-img h2 {
+        font-size: 24px;
+    }
+    .trainer-box-p h3 {
+        font-size: 18.72px;
+        margin-top: 16px;
+        padding-bottom: 7px;
+    }
+    .trainer-box-p p {
+        font-size: 16px;
+    }
+    .trainer-box-p {
+        padding: 0px 17px;
+    }
+    .trainer-box-p p:nth-child(2) {
+        padding-bottom: 13px;
+    }
+    .trainer-box-btn {
+        font-size: 16px;
+        margin-top: 24px;
+        padding: 12px 0px;
+    }
+    .default-title h1 {
+        font-size: 57px;
+    }
+    .default-title h2 {
+        margin-top: 5px;
+        font-size: 33px;
+    }
+    .about-box-number {
+        font-size: 74px;
+        margin-right: 20px;
+    }
+    .about-box p {
+        font-size: 21px;
+    }
+    .video-content iframe {
+        height: 315px;
+    }
+    .swiper-pagination-bullet {
+        width: 12px !important;
+        height: 13px !important;
+    }
+    :root {
+        --swiper-navigation-size: 23px !important;
+    }
+    .slider-navigation {
+        margin-top: 20px;
+    }
+    .swiper-pagination-clickable .swiper-pagination-bullet {
+        margin: 0px 4px;
+    }
+    .swiper-button-next1, .swiper-button-prev2 {
+        width: 23px;
+    }
+    .adva-box-img img {
+        width: 37px;
+        height: 37px;
+    }
+    .adva-box-img {
+        margin: 0px auto 18px;
+        width: 77px;
+        height: 77px;
+    }
+    .adva-box p {
+        font-size: 21px;
+    }
+    .news-box small {
+        font-size: 16px;
+    }
+    .news-box p {
+        font-size: 18px;
+    }
+    .news-box h3 {
+        font-size: 18.72px;
+        margin: 10px 0px 12px;
+    }
+    .reviews-box-img img {
+        width: 135px;
+        height: 125px;
+    }
+    .reviews-box h3 {
+        font-size: 29px;
+        margin-bottom: 16px;
+        margin-top: -60px;
+    }
+    .reviews-box p {
+        font-size: 16px;
+    }
+    section {
+        padding: 52px 0px;
+    }
+    .trainer-modal h3 {
+        font-size: 27px;
+    }
+    .trainer-modal h1 {
+        font-size: 60px;
+    }
+    .trainer-modal h2 {
+        font-size: 24px;
+    }
+    .trainer-modal ul {
+        font-size: 16px;
+    }
+    .trainer-modal img {
+        transform: unset;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .logo img {
+        width: 94px;
+        height: 94px;
+    }
+    .navigation-links a {
+        font-size: 19px;
+        padding: 16px 38px;
+    }
+    .navigation {
+        width: 272px;
+    }
+    .background,
+    header {
+        margin-left: 272px;
+    }
+    .logo h3 {
+        font-size: 24px;
+    }
+    .navigation-buttons a {
+        font-size: 14px;    
+        padding: 8px 21px;
+    }
+    .navigation-buttons {
+        margin-top: 8px;
+        padding: 8px 26px;
+    }
+    .navigation-buttons a:nth-child(2) {
+        margin-top: 14px;
+    }  
+    .navigation-social a {
+        margin: 9px 0px;
+        padding: 8px 0px;
+    }
+    .navigation-social {
+        margin-top: 13px;
+        padding: 0px 34px;
+    }
+    .container {
+        padding: 0px 15px;
+    }
+    .navigation-links {        
+        margin-top: 23px;
+    }
+    .header-title p {
+        font-size: 21px;
+    }
+    header:before {
+        height: 57%;
+    }
+    .specials .swiper-slide {
+        height: auto !important;
+    }
+    .trainer-content {
+        margin-top: 113px;
+    }
+    .prog-btn {
+        margin-top: unset;
+    }
+    .programs-box-hidden {
+        margin-bottom: 15px;
+    }
+    .programs-box p:nth-child(3) {
+        margin-bottom: 15px;
+    }
+    .programs-box-hidden {
+        margin-top: unset;
+    }
+    .trainer-modal ul {
+        width: 34%;
+    }
+    .trainer-modal-content br {
+        display: none;
+    }
+    .trainer-modal img {
+        bottom: 0;
+    }
+    .trainer-modal-1 img {
+        bottom: unset;
+    }
+}
+@media screen and (max-width: 1280px) and (max-height: 620px) {
+        .navigation-links {
+            margin-top: unset;
+        }
+
+        .programs-box:nth-child(4) {
+            max-height: 197px;
+        }
+        .prog-btn {
+            margin-top: auto;
+        }
+        .programs-box:nth-child(4).open {
+            max-height: 600px;
+        }
+      
+}
+@media screen and (max-width: 1280px) {
+    .adva-box {
+        width: 31%;
+    }
+    .programs-box {
+        width: 48%;
+    }
+    header:before {
+        height: 67%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .background,
+    header {
+        margin-left: unset;
+    }
+    .navigation {
+        display: none;
+    }
+}
+@media screen and (max-width: 500px) {
+    .programs-box-hidden {
+        margin-top: 15px;
+    } 
+    .programs-box p:nth-child(3) {
+        margin-bottom: unset;
+    }
+    .navigation {
+        position: unset;
+        background: unset;
+        width: 100%;
+        height: unset;
+    z-index: 10000;
+    display: block;
+    }
+    .logo {
+        padding: 2.3vh 15px;
+        align-items: center;
+        display: flex;
+    }
+    .logo div {
+        margin-left: 15px;
+        text-align: left;
+    }
+    .navigation-links,
+    .navigation-social,
+    .navigation-buttons {
+        display: none;
+    } 
+    .prog-btn {
+        margin-top: 15px;
+    }
+    .programs-box-hidden {
+        margin-bottom: unset;
+    }
+    .programs-box,
+    .about-box {
+        width: 100%;
+    }
+
+    .specials {
+        padding: 30px 20px;
+    }
+    .specials p {
+        font-size: 14px;
+    }
+    .specials h1 {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .specials .swiper-slide {
+        padding: 20px;
+    }
+    .specials-navigation {
+        position: unset;
+        justify-content: center;
+    }
+    .swiper-slide {
+        height: 100% !important;
+    }
+    /* .trainer .slider-navigation {
+        display: none;
+    } */
+    .trainer-box-img img {
+        width: 65%;
+    }
+    .header-title {
+        display: flex;
+        flex-flow: column wrap;
+        padding-bottom: 110px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header-title p:nth-child(1) {
+        margin-right: unset;
+    }
+    .header-title h1 {
+        font-size: 33px;
+    }
+    .btn {
+        margin-bottom: unset;
+        margin-top: 20px;
+        text-align: center;
+        padding: 21px 0px;
+        font-size: 14px;
+    }
+    .header-title p {
+        font-size: 16px;
+        margin: 24px 0px 15px;
+        width: 100%;
+    }
+    header .flex {
+        flex-flow: wrap;
+    }
+    header:before {
+        height: 78%;
+        width: 100%;
+    }
+    .default-title h1 {
+        font-size: 41px;
+    }
+    .default-title h2 {
+        font-size: 22px;
+    }
+    header {
+        overflow: hidden;
+        height: 83vh;
+    }
+    .adva-box p {
+        font-size: 15px;
+    }
+    .adva-content.jc-sb {
+        gap: unset;
+        row-gap: 50px;
+    }
+    .adva-box {        
+        width: 50%;
+    }
+    .adva-content {
+        margin-top: 52px;
+    }
+    .about-box p {
+        font-size: 16px;
+    }
+    .about-box-number {
+        font-size: 63px;
+    }
+    .reviews-box-img img {
+        width: 105px;
+        height: 95px;
+    }
+    .reviews-box h3 {
+        margin-top: -44px;
+    }
+    .reviews .container {
+        padding: 0px 5px;
+    }
+    .news-box:nth-child(1) {
+        height: 450px;
+    }.hamburger
+    .video-content iframe {
+        height: 250px;
+    }
+    .hamburger {
+        display: flex;
+    }
+    .background {
+        overflow: hidden;
+        background: center / 220% 100% radial-gradient(55.91% 12.62% at 68.33% 100%, #FFFFFF 0%, #39927C 0.01%, rgba(130, 170, 160, 0) 34.78%), radial-gradient(28.5% 7.51% at 0% 84.6%, rgba(255, 255, 255, 0.26) 18.71%, rgba(255, 255, 255, 0) 100%), radial-gradient(38.21% 11.16% at 83.28% 83.78%, rgba(163, 182, 233, 0.69) 0%, rgba(255, 255, 255, 0) 51.26%), radial-gradient(44.64% 10.74% at 27.01% 58.01%, rgba(177, 233, 163, 0.57) 18.71%, rgba(255, 255, 255, 0) 100%), radial-gradient(97.26% 15.72% at 97.45% 69.59%, rgba(177, 233, 163, 0.57) 18.71%, rgba(255, 255, 255, 0) 60.6%), radial-gradient(28.16% 8.51% at 47.47% 34.71%, rgba(177, 233, 163, 0.62) 0%, rgba(255, 255, 255, 0) 100%), radial-gradient(38.81% 9.93% at 26.33% 1.09%, rgba(177, 233, 163, 0.57) 1.92%, rgba(255, 255, 255, 0) 65.1%), radial-gradient(29.3% 11.94% at 90.94% 6.62%, rgba(177, 233, 163, 0.57) 0%, rgba(177, 233, 163, 0.57) 31.24%, rgba(255, 255, 255, 0) 97.21%), #7ABA93;
+    }
+    .trainer-modal img {
+        display: none;
+    }
+    .trainer-modal h1 {
+        font-size: 38px;
+    }
+    .trainer-modal h2 {
+        font-size: 19px;
+    }
+    .trainer-modal ul {
+        width: 50%;
+    }
+    .trainer-modal h3 {
+        font-size: 19px;
+    }
+    .trainer-modal {
+        width: 93%;
+        border-radius: 31px;
+        margin: 73px auto 0px;
+        height: unset;
+    }
+    .trainer-modal-title {
+        padding: 13px;
+        border-radius: 31px 31px 0px 0px;
+    }
+    .trainer-modal ul {
+        font-size: 13px;
+    }
+    .photo-box {
+        max-width: 100%;
+    }
+    .trainer-modal-content {
+        min-height: unset;
+        padding: 13px;
+    }
+    .programs-box:nth-child(4).open {
+        max-height: 700px;
+    }
+    .navigation-buttons a:hover:nth-child(1) ~ .naviagtion-buttons-hidden {
+        transform: translateY(-110%);
+    }
+    .naviagtion-buttons-hidden:hover {
+        transform: translateY(-110%);
+    }
+    .naviagtion-buttons-hidden {
+        left: 0;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .hamburger-menu .navigation-buttons a {
+    padding: 10px 11px;}
+}
