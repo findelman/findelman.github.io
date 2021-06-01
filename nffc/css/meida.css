@@ -438,6 +438,14 @@
     header {
         overflow: hidden;
         height: 83vh;
+            -webkit-transition: 500ms;
+    -o-transition: 500ms;
+    transition: 500ms;
+    }
+    section {
+            -webkit-transition: 500ms;
+    -o-transition: 500ms;
+    transition: 500ms;
     }
     .adva-box p {
         font-size: 15px;
@@ -547,9 +555,7 @@
     .header-title h1 {
         font-size: 27px;
     }
-    .btn {
-        font-size: 11px;
-    }
+
 }
 @media screen and (max-width: 330px) and (max-height: 590px) {
     .hamburger-menu .navigation-buttons {
@@ -561,5 +567,8 @@
     }
     .hamburger-navigation {
         margin-top: unset;
+    }
+    .btn {
+        font-size: 11px;
     }
 }

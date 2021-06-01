@@ -18,14 +18,10 @@ header {
     position: relative;
     height: 100vh;
     margin-left: 393px;
-    -webkit-transition: 500ms;
-    -o-transition: 500ms;
-    transition: 500ms;
+
 }
 section {
-    -webkit-transition: 500ms;
-    -o-transition: 500ms;
-    transition: 500ms;
+
     padding: 63px 0px;
     overflow: hidden;
     position: relative;
@@ -41,9 +37,6 @@ header:before {
     height: 54%;
 }
 .navigation {
-    -webkit-transition: 500ms;
-    -o-transition: 500ms;
-    transition: 500ms;
     position: fixed;
     background: #A8C790;
     width: 393px;
@@ -1022,6 +1015,7 @@ position: absolute;
     padding: 40px;
     background: #4eab37 !important;
 }
+
 .specials .mainSwiper.swiper-container {
     position: relative;
 }
