@@ -67,10 +67,10 @@
     .programs-box {
         padding: 32px 31px 0px 31px;
         /* max-height: 200px;  default*/
-        max-height: 197px;
+        max-height: 211px;
     }
     .programs-box:nth-child(4) {
-        max-height: 268px;
+        max-height: 294px;
     }
     .programs-box h3 {
         font-size: 25px;
@@ -614,5 +614,8 @@
     }
     .btn {
         font-size: 11px;
+    }
+    .programs-box {
+        padding: 32px 17px 0px 19px;
     }
 }
