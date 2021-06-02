@@ -283,7 +283,9 @@
     .trainer-modal {
         width: 97%;
         left: 50%;
-        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
     }
 }
 @media screen and (max-width: 1280px) and (max-height: 620px) {
@@ -561,10 +563,13 @@
         width: 100%;
     }
     .addresses-content.flex {
-        flex-flow: wrap;
+        -ms-flex-flow: wrap;
+            flex-flow: wrap;
     }
     .addresses-content-links {
-        order: -1;
+        -webkit-box-ordinal-group: 0;
+            -ms-flex-order: -1;
+                order: -1;
         padding:  25px 10px;
     }
     .adr-numb,
