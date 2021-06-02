@@ -1322,8 +1322,10 @@ position: absolute;
     padding: 13px;
 }
 .addresses-content-links {
+    padding-top: 15px;
     color:#323232;
-background: #ffffffa3;
+/* background: #ffffffa3; */
+background: #4eab37;
 padding-left: 50px;
 width: 50%;
 }
@@ -1360,6 +1362,7 @@ cursor: pointer;
     border: 3px solid white;
 }
 .addresses-content-links ul {
+    color:white;
     margin-top: 15px;
 }
 .addresses-content-links ul li:nth-last-child(3) {
