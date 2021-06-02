@@ -317,6 +317,9 @@
     }
 }
 @media screen and (max-width: 500px) {
+    .header-title br {
+        display: block;
+    }
     .programs-box-hidden {
         margin-top: 15px;
     } 

@@ -257,6 +257,9 @@ header:before {
 .header-title p:nth-child(1) {
     margin-right: 99px;
 }
+.header-title br {
+    display: none;
+}
 .btn {
     font-weight: bold;
     color:black;
