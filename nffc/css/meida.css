@@ -1,7 +1,4 @@
 @media screen and (max-width: 1600px) {
-
-
-
     .navigation-links a {
         font-size: 16px;
     }
@@ -12,10 +9,6 @@
     .navigation-social a {
         padding: 13px 14px;
     }
-    /* .navigation-social {
-        margin-top: 16px;
-    } */
-
     .navigation-buttons a {
         font-size: 16px;
         padding: 10px 26px;
@@ -23,7 +16,6 @@
     .navigation-buttons img {
         width: 21px;
         height: 26px;
-        margin-right: 20px;
     }
     .navigation-buttons a:nth-child(2) {
         margin-top: 17px;
@@ -296,6 +288,22 @@
     }
     header:before {
         height: 67%;
+    }
+}
+@media screen and (max-width: 1258px) {
+    .logo h3 {
+        font-size: 20px;
+    }
+    .navigation-buttons img {
+        margin-right: 8px;
+    }
+    .navigation-social {
+        column-gap: 8px;
+    }
+}
+@media screen and (max-width: 1182px) {
+    .navigation .navigation-social {
+        display: none;
     }
 }
 @media screen and (max-width: 1024px) {
