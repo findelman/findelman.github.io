@@ -592,7 +592,7 @@ transition: 800ms;
 }
 .trainer-box-btn:hover {
     background: transparent;
-    color:white;
+    color:#A8C790;
 }
 
 .trainer-box-btn:before {
@@ -606,7 +606,7 @@ transition: 800ms;
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #A8C790;
+    background: white;
     top: 0;
     left: -50%;
     -webkit-transform: translateX(50%) scaleX(0);
