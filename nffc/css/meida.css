@@ -540,6 +540,7 @@
         -webkit-transform: translateY(-110%);
             -ms-transform: translateY(-110%);
                 transform: translateY(-110%);
+                width: 100%;
     }
     .naviagtion-buttons-hidden:hover {
         -webkit-transform: translateY(-110%);
