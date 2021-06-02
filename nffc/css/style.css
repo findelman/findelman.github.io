@@ -20,7 +20,6 @@ header {
 
 }
 section {
-
     padding: 63px 0px;
     overflow: hidden;
     position: relative;
@@ -42,7 +41,11 @@ header:before {
     z-index: 100000;
 }
 .logo {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 26px 0px;
     color:#A8C790;
@@ -55,7 +58,9 @@ header:before {
 }
 .navigation.jc-sb {
     padding: 0px 3%;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .logo img {
     width: 139px;
@@ -77,6 +82,8 @@ header:before {
     color:rgba(50, 50, 50, 0.8);
     display: inline-block;
     margin: 0px 15px;
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
 }
 .navigation-links a:hover {
@@ -173,12 +180,16 @@ header:before {
     -webkit-transition: 400ms;
     -o-transition: 400ms;
     transition: 400ms;
-    transform: translateY(40%);
+    -webkit-transform: translateY(40%);
+        -ms-transform: translateY(40%);
+            transform: translateY(40%);
 }
 .naviagtion-buttons-hidden:hover {
     opacity: 1;
     visibility: visible;
-    transform: translateY(30%);
+    -webkit-transform: translateY(30%);
+        -ms-transform: translateY(30%);
+            transform: translateY(30%);
 }
 .naviagtion-buttons-hidden p {
     margin-bottom: 10px;
@@ -186,7 +197,9 @@ header:before {
 .navigation-buttons a:hover:nth-child(1) ~ .naviagtion-buttons-hidden {
     visibility: visible;
     opacity: 1;
-    transform: translateY(30%);
+    -webkit-transform: translateY(30%);
+        -ms-transform: translateY(30%);
+            transform: translateY(30%);
 }
 .navigation-buttons a {
     border: 1px solid green;
@@ -627,7 +640,9 @@ transition: 800ms;
     margin-top: 30px;
 }
 .video .default-title{
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

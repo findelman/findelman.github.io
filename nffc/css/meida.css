@@ -298,7 +298,9 @@
         margin-right: 8px;
     }
     .navigation-social {
-        column-gap: 8px;
+        -webkit-column-gap: 8px;
+           -moz-column-gap: 8px;
+                column-gap: 8px;
     }
 }
 @media screen and (max-width: 1182px) {
@@ -582,6 +584,8 @@
         margin-top: unset;
     }
     .addresses-content-links .navigation-social {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 }
