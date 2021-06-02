@@ -415,6 +415,7 @@
         font-size: 33px;
     }
     .btn {
+        width: 100%;
         margin-bottom: unset;
         margin-top: 20px;
         text-align: center;
@@ -550,6 +551,29 @@
     }
     .naviagtion-buttons-hidden {
         left: 0;
+    }
+    .programs-content.jc-sb {
+        gap: unset;
+        row-gap: 20px;
+    }
+    .addresses-content iframe,
+    .addresses-content-links {
+        width: 100%;
+    }
+    .addresses-content.flex {
+        flex-flow: wrap;
+    }
+    .addresses-content-links {
+        order: -1;
+        padding:  25px 10px;
+    }
+    .adr-numb,
+    .adr-btn {
+        width: 100%;
+        text-align: center;
+    }
+    .adr-btn {
+        margin-top: 15px;
     }
 
 }
