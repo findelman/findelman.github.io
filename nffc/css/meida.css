@@ -587,6 +587,9 @@
         gap: unset;
         row-gap:  20px;
     }
+    .about-box:nth-child(even) {
+        margin-top: unset;
+    }
 
 }
 

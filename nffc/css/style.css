@@ -458,9 +458,7 @@ transition: 800ms;
     }
 
 
-.trainer .default-title {
-    text-align: center;
-}
+
 .trainer:before {
     content:'';
     width: 326px;
@@ -773,9 +771,7 @@ opacity: 0;
     height: 15.86px !important;}
 /* slider end */
 
-.advantages .default-title {
-    text-align: center;
-}
+
 .adva-content {
     margin-top: 90px;
 }
@@ -887,9 +883,6 @@ opacity: 0;
 .news-box a {
     color:white;
     text-decoration: underline;
-}
-.reviews .default-title {
-    text-align: center;
 }
 .reviews-box {
     display: -webkit-box;
