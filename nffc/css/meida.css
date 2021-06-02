@@ -589,6 +589,11 @@
         display: flex;
     }
 }
+@media screen and (max-height: 597px) {
+    .hamburger-link a:nth-child(5)  {
+        display: none;
+    }
+}
 
 @media screen and (max-width: 375px) {
     .hamburger-menu .navigation-buttons a {
