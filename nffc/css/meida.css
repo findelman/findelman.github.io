@@ -568,6 +568,9 @@
                 order: -1;
         padding:  25px 10px;
     }
+    .about-content .btn {
+        margin: 19px auto 0px;
+    }
     .adr-numb,
     .adr-btn {
         width: 100%;
@@ -590,6 +593,10 @@
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+    }
+    .addresses-content-links h1 {
+        font-size: 33px;
+        margin-top: 15px;
     }
 }
 @media screen and (max-height: 597px) {
