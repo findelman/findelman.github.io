@@ -1,32 +1,21 @@
 @media screen and (max-width: 1600px) {
-    header,.background {
-        margin-left: 328px;
-    }
-    .navigation {
-        width: 328px;
-    }
-    .navigation-links {
-        margin-top: 28px;
-    }
+
+
+
     .navigation-links a {
-        font-size: 24px;
-        padding: 20px 46px;
+        font-size: 16px;
     }
     .navigation-social svg {
         width: 24px;
         height: 24px;
     }
     .navigation-social a {
-        margin: 12px 0px;
-        padding: 13px 0px;
+        padding: 13px 14px;
     }
-    .navigation-social {
+    /* .navigation-social {
         margin-top: 16px;
-    }
-    .navigation-buttons {
-        margin-top: 10px;
-        padding: 10px 32px;
-    }
+    } */
+
     .navigation-buttons a {
         font-size: 16px;
         padding: 10px 26px;
@@ -40,8 +29,8 @@
         margin-top: 17px;
     }
     .logo img {
-        width: 116px;
-        height: 116px;
+        width: 95px;
+        height: 95px;
     }
     .logo h3 {
         font-size: 29px;
@@ -201,54 +190,48 @@
 }
 
 @media screen and (max-width: 1366px) {
+    .navigation.jc-sb{
+        gap: unset;
+    }
+    .navigation-social svg {
+        width: 20px;
+        height: 20px;
+    }
     .logo img {
         width: 94px;
         height: 94px;
     }
     .navigation-links a {
-        font-size: 19px;
-        padding: 16px 38px;
+        font-size: 14px;
     }
-    .navigation {
-        width: 272px;
-    }
-    .background,
-    header {
-        margin-left: 272px;
-    }
+
     .logo h3 {
         font-size: 24px;
     }
     .navigation-buttons a {
         font-size: 14px;    
-        padding: 8px 21px;
+        padding: 5px 19px;
+
     }
-    .navigation-buttons {
-        margin-top: 8px;
-        padding: 8px 26px;
-    }
+
     .navigation-buttons a:nth-child(2) {
         margin-top: 14px;
     }  
     .navigation-social a {
-        margin: 9px 0px;
-        padding: 8px 0px;
-    }
-    .navigation-social {
-        margin-top: 13px;
-        padding: 0px 34px;
+        padding: 8px 8px;
     }
     .container {
         padding: 0px 15px;
     }
-    .navigation-links {        
-        margin-top: 23px;
-    }
+ 
     .header-title p {
         font-size: 21px;
     }
     header:before {
-        height: 57%;
+        height: 68%;
+    }
+    .logo {
+        padding: 15px 0;
     }
     .specials .swiper-slide {
         height: auto !important;
@@ -590,7 +573,9 @@
     .about-box:nth-child(even) {
         margin-top: unset;
     }
-
+    .addresses-content-links .navigation-social {
+        display: flex;
+    }
 }
 
 @media screen and (max-width: 375px) {
