@@ -31,7 +31,7 @@
         font-size: 48px;
     }
     .header-title p {
-        font-size: 24px;
+        font-size: 21px;
         margin: 24px 0px 60px;
     }
     .header-title p:nth-child(1) {
@@ -216,7 +216,7 @@
     }
  
     .header-title p {
-        font-size: 21px;
+        font-size: 17px;
     }
     header:before {
         height: 68%;
