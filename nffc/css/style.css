@@ -1347,6 +1347,7 @@ margin-bottom: 5px;
     font-weight: bold;
 color:white;
 background: #ffbb23;
+transition: 500ms;
 }
 .adr-btn {
     display: inline-block;
@@ -1356,6 +1357,9 @@ background: #ffbb23;
 color:white;
 background: #ef5454;
 cursor: pointer;
+}
+.adr-numb:hover {
+    transform: scale(1.1);
 }
 .addresses-content {
     margin-top: 20px;
@@ -1374,4 +1378,7 @@ cursor: pointer;
 }
 .addresses-content-links h1 {
     font-size: 43px;
+}
+.adva-content .btn {
+    margin: 19px auto 0;
 }
