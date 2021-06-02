@@ -1347,8 +1347,9 @@ cursor: pointer;
     margin: 50px auto 0px;
     /* background: #15d496; */
     /* -webkit-box-shadow: 0px 0px 15px 2px #15d496;
-    box-shadow: 0px 0px 15px 2px #15d496; */
+ */
     border: 3px solid white;
+    /* box-shadow: 0px 0px 15px 2px #15d496; */
 }
 .addresses-content-links ul {
     margin-top: 15px;
