@@ -31,7 +31,7 @@ header:before {
     bottom: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.57);
-    width: 70%;
+    width: 58%;
     height: 63%;
 }
 .navigation {
@@ -252,7 +252,7 @@ header:before {
 }
 .header-title p {
     margin: 29px 0px 72px;
-    width: 29%;
+    width: 26%;
 }
 .header-title p:nth-child(1) {
     margin-right: 99px;
