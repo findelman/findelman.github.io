@@ -575,6 +575,9 @@
     .adr-btn {
         margin-top: 15px;
     }
+    .addresses-content-links ul {
+        margin-top: unset;
+    }
 
 }
 
