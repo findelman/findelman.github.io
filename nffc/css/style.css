@@ -296,6 +296,7 @@ border-radius: 56px;
             transform: translateY(-10px);
 }
 .default-title {
+    text-align: center;
     color:white;
 }
 .default-title h1 {
