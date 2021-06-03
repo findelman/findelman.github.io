@@ -21,7 +21,7 @@ header {
 }
 section {
     padding: 63px 0px;
-    overflow: hidden;
+    overflow: visible;
     position: relative;
 }
 header:before {
@@ -846,7 +846,7 @@ opacity: 0;
 
 .specials h1 {
     font-size: 69px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 .specials p {
     color: white;
