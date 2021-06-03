@@ -1359,6 +1359,10 @@ transition: 500ms;
 color:white;
 background: #ef5454;
 cursor: pointer;
+transition: 500ms;
+}
+.adr-btn:hover {
+    transform: scale(1.1);
 }
 .adr-numb:hover {
     -webkit-transform: scale(1.1);
