@@ -849,7 +849,8 @@ opacity: 0;
     margin-bottom: 20px;
 }
 .specials p {
-    color: rgba(255, 255, 255, 0.8);
+    color: white;
+    /* color: rgba(255, 255, 255, 0.8); */
     font-size: 33px;
     position: relative;
 }
