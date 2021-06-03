@@ -473,7 +473,24 @@ transition: 800ms;
         color:black;
     }
 
-
+.reviews:before {
+    content: '';
+    position: absolute;
+    top: 19%;
+    right: 0;
+    height: 425px;
+    width: 236px;
+    background: center / auto no-repeat url(../images/program-element.png);
+}
+.video:before {
+    content: '';
+    width: 326px;
+    height: 518px;
+    position: absolute;
+    left: 0;
+    top: 10%;
+    background: center / contain no-repeat url(../images/trainer-element.png);
+}
 
 .trainer:before {
     content:'';
@@ -482,7 +499,7 @@ transition: 800ms;
     position: absolute;
     left: 0;
     top:10%;
-    background: center / auto no-repeat url(../images/trainer-element.png);
+    background: center / contain no-repeat url(../images/trainer-element.png);
 }
 .trainer-box {
     border-radius: 42px;
