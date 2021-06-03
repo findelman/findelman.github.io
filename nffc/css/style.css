@@ -845,12 +845,12 @@ opacity: 0;
 }
 
 .specials h1 {
-    font-size: 40px;
+    font-size: 69px;
     margin-bottom: 20px;
 }
 .specials p {
     color: rgba(255, 255, 255, 0.8);
-    font-size: 20px;
+    font-size: 33px;
 }
 .grid {
     grid-gap: 34px;
@@ -1393,4 +1393,10 @@ transition: 500ms;
 .addresses {
     padding-bottom: 20px;
     background: #42633a;
+}
+.spec-box {
+    border-radius: 20px;
+    /* width: 45%; */
+    padding: 20px;
+    /* background: #4EAB37; */
 }
