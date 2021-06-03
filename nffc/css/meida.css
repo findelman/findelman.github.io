@@ -422,7 +422,7 @@
     .specials p {
         font-size: 14px;
     }
-    .specials h1 {
+    .specials .default-title h1 {
         margin-bottom: 10px;
         font-size: 41px;
     }

@@ -861,7 +861,7 @@ opacity: 0;
             align-items: center;
 }
 
-.specials h1 {
+.specials .default-title h1 {
     font-size: 69px;
     margin-bottom: 60px;
 }
@@ -1422,6 +1422,9 @@ transition: 500ms;
     padding: 30px 150px 30px 30px;
     overflow: hidden;
     /* background: #4EAB37; */
+}
+.spec-box h1 {
+    margin-bottom: 15px;
 }
 .spec-box:before {
     content: '';
