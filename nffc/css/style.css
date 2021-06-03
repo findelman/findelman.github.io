@@ -364,6 +364,9 @@ transition: 800ms;
 .programs-box:nth-child(4) .prog-btn {
     margin-top: auto;
 }
+.programs-box:nth-child(4) p {
+    color: unset;
+}
 .programs-box.open {
     max-height: 500px;
 }
