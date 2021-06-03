@@ -349,7 +349,7 @@ border-radius: 56px;
     font-weight: bold;
     background: #000;
     max-height: 245px;
-    width: 32%;
+    width: 48%;
     background: #615E7C;
     position: relative;
 border-radius: 20px 20px 20px 25px;
@@ -361,11 +361,13 @@ transition: 800ms;
     max-height: 260px;
     background: #503863;
 } 
+.programs-box:nth-child(4) .prog-btn {
+    margin-top: auto;
+}
 .programs-box.open {
     max-height: 500px;
 }
 .programs-box:nth-child(4).open {
-    width: 100%;
 }
 .programs-box-hidden {
     color: #c0b9ff;
@@ -1424,6 +1426,7 @@ transition: 500ms;
     /* background: #4EAB37; */
 }
 .spec-box h1 {
+    font-size: 54px;
     margin-bottom: 15px;
 }
 .spec-box:before {
