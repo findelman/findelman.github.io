@@ -193,6 +193,9 @@
     .spec-box {
         padding: 30px 15px 30px 30px;
     }
+    .spec-box h1 {
+        font-size: 33px;
+    }
 }
 
 @media screen and (max-width: 1366px) {
