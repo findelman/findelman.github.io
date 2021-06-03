@@ -384,6 +384,8 @@
         margin-bottom: 10px;
         font-size: 16px;
     }
+    .addresses .default-title h1 {
+        padding: 18px 0px 15px;}
     .specials .swiper-slide {
         padding: 20px;
     }
@@ -574,7 +576,7 @@
         -webkit-box-ordinal-group: 0;
             -ms-flex-order: -1;
                 order: -1;
-        padding:  25px 10px;
+        padding:  0px 10px 25px;
     }
     .about-content .btn {
         margin: 19px auto 0px;
