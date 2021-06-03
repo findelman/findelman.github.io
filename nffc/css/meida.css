@@ -261,6 +261,12 @@
             -ms-transform: translateX(-50%);
                 transform: translateX(-50%);
     }
+    .addresses-content iframe {
+        height: 360px;
+    }
+    .adr-btn {
+        margin-top: 15px;
+    }
 }
 @media screen and (max-width: 1280px) and (max-height: 620px) {
         .navigation-links {
@@ -595,9 +601,9 @@
         display: flex;
         justify-content: center;
     }
-    .addresses-content-links h1 {
-        font-size: 33px;
-        margin-top: 15px;
+
+    .navigation-social {
+        margin-bottom: 15px;
     }
 }
 @media screen and (max-height: 597px) {
