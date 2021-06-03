@@ -280,13 +280,27 @@
         margin-top: 15px;
     }
     .spec-box h1 {
-        font-size: 38px;
+        font-size: 33px;
     }
     .specials p {
-        font-size: 28px ;
+        font-size: 21px ;
     }
     .spec-numb {
         font-size: 35px;
+    }
+    .spec-box:before {
+        content: '';
+        color: #38492A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: -38%;
+        right: -11%;
+        width: 45%;
+        height: 79%;
+        background: #73ED77;
+        border-radius: 72%;
     }
 }
 @media screen and (max-width: 1280px) and (max-height: 620px) {
