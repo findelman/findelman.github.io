@@ -1369,9 +1369,6 @@ transition: 500ms;
         -ms-transform: scale(1.1);
             transform: scale(1.1);
 }
-.addresses-content {
-    margin-top: 20px;
-}
 .about-content .btn,
 .adva-content .btn {
     margin: 50px auto 0px;
@@ -1389,4 +1386,8 @@ transition: 500ms;
 }
 .adva-content .btn {
     margin: 19px auto 0;
+}
+.addresses .default-title h1 {
+    padding: 15px 0px;
+    background: #42633a;
 }
