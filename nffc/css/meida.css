@@ -1,6 +1,6 @@
 @media screen and (max-width: 1600px) {
     .specials h1 {
-        font-size: 57px;
+        font-size: 33px;
     }
     .navigation-links a {
         font-size: 16px;
@@ -19,6 +19,9 @@
     .navigation-buttons img {
         width: 21px;
         height: 26px;
+    }
+    .specials p {
+        font-size: 21px;
     }
     .navigation-buttons a:nth-child(2) {
         margin-top: 17px;
